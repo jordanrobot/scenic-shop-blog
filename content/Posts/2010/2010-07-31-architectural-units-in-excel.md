@@ -9,12 +9,14 @@ I recently had to calculate the total area of our soft goods inventory.  With o
 
 ### Formula #1
 
-Convert a 13'-10" style format into inches.  (Replace instances of C3 with the cell containing the measurement to convert.) `=(LEFT(C3,(SEARCH("'",C3,1)-1))*12)+(SUBSTITUTE(SUBSTITUTE((RIGHT(C3,((SEARCH("-",C3,1)) -1))),"-",""),"""","")))`
+Convert a 13'-10" style format into inches.  (Replace instances of C3 with the cell containing the measurement to convert.)
+
+    =(LEFT(C3,(SEARCH("'",C3,1)-1))*12)+(SUBSTITUTE(SUBSTITUTE((RIGHT(C3,((SEARCH("-",C3,1)) -1))),"-",""),"""","")))
 
 ### Formula #2
 
-Calculate area from two cells (C3 & D3) from a \[feet\]'-\[inches\]" style format.  Returns area as square feet.
+Calculate area from two cells (C3 & D3) from a ```\[feet\]'-\[inches\]"``` style format.  Returns area as square feet.
 
-`=(((LEFT(C3,(SEARCH("'",C3,1)-1))*12)+(SUBSTITUTE(SUBSTITUTE((RIGHT(C3,((SEARCH("-",C3,1)) -1))),"-",""),"""","")))*((LEFT(D3,(SEARCH("'",D3,1)-1))*12)+(SUBSTITUTE(SUBSTITUTE((RIGHT(D3,((SEARCH("-",D3,1)) -1))),"-",""),"""",""))))/144`
+    =(((LEFT(C3,(SEARCH("'",C3,1)-1))*12)+(SUBSTITUTE(SUBSTITUTE((RIGHT(C3,((SEARCH("-",C3,1)) -1))),"-",""),"""","")))*((LEFT(D3,(SEARCH("'",D3,1)-1))*12)+(SUBSTITUTE(SUBSTITUTE((RIGHT(D3,((SEARCH("-",D3,1)) -1))),"-",""),"""",""))))/144
 
 The only requirement is that the format must be as follows: 5'-3" These formulas rely on this format to find the numbers. Perhaps when I find more time, I'll update them to work with a few different styles.

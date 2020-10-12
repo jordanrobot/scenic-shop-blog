@@ -21,9 +21,9 @@ Download [Scratch v0.7](http://scenic-shop.com/files/cad/scratch0.7.zip) now!
 
 Scratch is super simple, there are only two commands (+1 bonus command).
 
-1. **cst** - will toggle you between the magenta scratchpad layer and the original layer.
-2. **est** - deletes the scratchpad layer and everything in it.
-3. **1\`** - changes your current layer to your prior layer.
+* **cst** - will toggle you between the magenta scratchpad layer and the original layer.
+* **est** - deletes the scratchpad layer and everything in it.
+* **1\`** - changes your current layer to your prior layer.
 
 ### Crosshair Colors
 
@@ -35,4 +35,4 @@ Loading the second file _scratchColor.lsp_ enables the crosshair color switcher.
 - Scratch stores your original crosshair colors; if you have them customized, it will not clobber your original settings.
 - You can change the name, lineweight, color, and linetype of the scratchpad layer in the top of the _scratch.lsp_ file.
 
-[![scratch](images/scratch.png "scratch")](http://scenic-shop.com/wp/wp-content/uploads/2009/11/scratch.png) [![kick it on CadKicks.com](http://cadkicks.com:80/Services/Images/KickItImageGenerator.ashx?url=http%3a%2f%2fscenic-shop.com%2fwp%2f2009%2f11%2fscratch-an-autocad-scratchpad-utility%2f&bgcolor=FF9900&cfgcolor=FFFFFF&cbgcolor=000000)](http://cadkicks.com:80/kick/?url=http%3a%2f%2fscenic-shop.com%2fwp%2f2009%2f11%2fscratch-an-autocad-scratchpad-utility%2f)
+[![scratch](images/scratch.png "scratch")](http://scenic-shop.com/wp/wp-content/uploads/2009/11/scratch.png)

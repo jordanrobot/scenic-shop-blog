@@ -9,7 +9,8 @@ Download the .zip file, and unpack it. To run the utility, you will need to tell
 
 Excerpt from top of Cadalyzer.rb file:
 
-> path = "insert full path to log file directory here"
+    > path = "insert full path to log file directory here"
+
 
 The utility will combine & analyze the data from every log file in the directory specified.
 

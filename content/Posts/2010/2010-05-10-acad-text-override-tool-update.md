@@ -39,5 +39,3 @@ Existing shortcuts: (<> = autocad's measurement)
 - NCT = <> \[newline\] O.C. TYP.
 - S = <> (SKIN)
 - P = (<>) \[Parenthesis\]
-
-[![kick it on CadKicks.com](http://cadkicks.com/Services/Images/KickItImageGenerator.ashx?url=http%3a%2f%2fscenic-shop.com%2fwp%2f2010%2f05%2facad-text-override-tool-update%2f&bgcolor=FF9900&cfgcolor=FFFFFF&cbgcolor=000000)](http://cadkicks.com:80/kick/?url=http%3a%2f%2fscenic-shop.com%2fwp%2f2010%2f05%2facad-text-override-tool-update%2f)

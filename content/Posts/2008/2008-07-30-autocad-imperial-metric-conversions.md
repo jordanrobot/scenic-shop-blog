@@ -26,5 +26,3 @@ Optional tip. You can also set the "Insertion Scale" to Unitless and specify the
 The most useful information ends here. For those who program LISP routines, a rant follows...
 
 It boggles my mind that AutoCAD does not have an optional real-time scaling factor built-in for drawing differing units in the same drawing. This would consist of 1) a global drawing unit, as supplied by the user or the template. This would tell Autocad what measurement unit the drawing is in. 2) A scaling factor would be calculated and applied to objects as they are drawn. AutoCAD would compare the entered unit to the global unit and apply the appropriate conversion factor to object drawn or edited. Perhaps the same can be achieved using a LISP routine. If there are any takers, please drop me a line.
-
-[![kick it on CadKicks.com](http://cadkicks.com:80/Services/Images/KickItImageGenerator.ashx?url=http%3a%2f%2fscenic-shop.com%2fss%2ffiles%2fautocad_mixed_units.html&bgcolor=FF9900&cfgcolor=FFFFFF&cbgcolor=000000)](http://cadkicks.com:80/kick/?url=http%3a%2f%2fscenic-shop.com%2fss%2ffiles%2fautocad_mixed_units.html)

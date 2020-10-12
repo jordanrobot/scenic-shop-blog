@@ -11,16 +11,16 @@ This is the syntax for each command:
 
 Change to layer...
 
-(defun c:1()(setvar "clayer" "Shop - Construction"))
+    (defun c:1()(setvar "clayer" "Shop - Construction"))
 
 Move to layer...
-
+```
 (defun c:m2( / eset) (setq eset (ssget))
     (command ".chprop" "\_p" "" "\_la" "Shop - Dimensions" "")
     )
-
+```
 Look like layer \[transform\]...
-
+```
 (defun c:t1( / eset) (setq eset (ssget))
     (command ".chprop" "\_p" "" "\_c" "40" "lt" "continuous" "lw" "0.2" "")
     ) 
@@ -28,15 +28,16 @@ Look like layer \[transform\]...
 (defun c:t1( / eset) (setq eset (ssget))
     (command ".chprop" "\_p" "" "\_c" "40" "lt" "continuous" "lw" "0.2" "")
     )
-
+```
 Reset object to default layer appearance...
-
+```
 (defun c:by( / eset) (setq eset (ssget))
     (command ".chprop" "p" "" "c" "bylayer" "lt" "bylayer" "")
     )
-
+```
 copy to current layer...
-
+```
 (defun c:ctc() (copy\_to\_)
     (command ".chprop" "L" "" "\_p" "\_la" (getvar "clayer") "")
     )
+```

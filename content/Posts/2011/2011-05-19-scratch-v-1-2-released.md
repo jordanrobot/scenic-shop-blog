@@ -14,7 +14,7 @@ Hard to believe its been over a year since I released an update to Scratch.  Th
 Usage:
 
 Note: the \` symbol is a backtick (next to the 1 key)
-
+```
 - command: \` - toggle between scratchpad layer and the current layer
 - command: e\` - erase scratchpad (menu)
     - option: a - erase everything in scratchpad layer
@@ -22,6 +22,7 @@ Note: the \` symbol is a backtick (next to the 1 key)
     - option: s - erase only selected objects in scratchpad layer
 - command: m\` - move selected objects to the scratchpad layer
 - command: 1\` - jumps to previous layer
+```
 
 Release notes:
 
