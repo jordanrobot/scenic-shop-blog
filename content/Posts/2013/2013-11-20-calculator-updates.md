@@ -22,4 +22,4 @@ The [Resultant Force](https://www.scenic-shop.com/Calculators/resultant_force.ht
 
 Note that I've moved the the diagrams.  They used to be located below the calculators (akk).  I've moved them into a pop-up dialogue that you can load by clicking the "Diagram" button, as shown below...
 
-[![diagram_but](images/diagram_but.png)](http://scenic-shop.com/wp/wp-content/uploads/2013/11/diagram_but.png)
+[![diagram_but](../images/diagram_but.png)](http://scenic-shop.com/wp/wp-content/uploads/2013/11/diagram_but.png)

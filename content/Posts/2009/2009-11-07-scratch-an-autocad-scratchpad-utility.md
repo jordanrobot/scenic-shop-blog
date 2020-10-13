@@ -1,6 +1,8 @@
 ---
 title: "Scratch! (An AutoCAD Scratchpad Utility)"
 date: "2009-11-07"
+taxonomies:
+  tag: images
 ---
 
 Scratch provides a quick & simple way to utilize a temporary scratchpad layer in AutoCAD. Scratch allows you to quickly switch in & out of the scratchpad layer, and throw it away whenever you want, leaving the rest of your AutoCAD drawing untouched.
@@ -35,4 +37,4 @@ Loading the second file _scratchColor.lsp_ enables the crosshair color switcher.
 - Scratch stores your original crosshair colors; if you have them customized, it will not clobber your original settings.
 - You can change the name, lineweight, color, and linetype of the scratchpad layer in the top of the _scratch.lsp_ file.
 
-[![scratch](images/scratch.png "scratch")](http://scenic-shop.com/wp/wp-content/uploads/2009/11/scratch.png)
+![scratch](../images/scratch.png)

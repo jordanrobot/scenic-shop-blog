@@ -11,6 +11,6 @@ It can be a little intimidating if you’re not familiar with the concept of how
 
 [Frustum.xls](http://scenic-shop.com/files/excel/Frustum.xls) From fabric to sheet goods, I hope this calculator finds some use.
 
-![frustum-model](images/frustum-model.jpg "frustum-model")
+![frustum-model](../images/frustum-model.jpg "frustum-model")
 
 Update: There is a great [description](http://www.woodweb.com/knowledge_base/Creating_the_Flat_View_of_a_Cone.html) of how to flatten a frustum in AutoCAD over at Woodweb.

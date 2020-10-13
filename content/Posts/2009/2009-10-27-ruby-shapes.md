@@ -1,9 +1,11 @@
 ---
 title: "Ruby Shapes"
 date: "2009-10-27"
+taxonomies:
+  tag: images
 ---
 
-![rubyshapeslogo](/img/rubyshapeslogo.png)
+![Ruby Shapes logo image](../images/rubyshapeslogo.png)
 
 ### What is RubyShapes?
 

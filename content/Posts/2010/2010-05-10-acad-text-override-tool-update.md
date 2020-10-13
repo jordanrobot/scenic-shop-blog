@@ -7,7 +7,7 @@ Download [Text Override Tool v2.7](https://www.scenic-shop.com/files/cad/lisp/to
 
 I've recently updated my text override tool for AutoCAD.  In case you didn't know, you can make the text field in a dimension read anything you want.  Ask some hardcore cad users about it, and your castle might be set upon by an angry mob.  Why do some drafters revile the text override?  Reason: lies, lies, and more damned lies.  If you can't trust the dimensions in a drawing, what can you trust?  After years of misuse by impatient and/or lazy cad users the text overrides have developed a bad rap.  Here's the truth, with great power comes great responsibility.  Take a gander at the screen shot below, and you'll see what I mean.
 
-[![Text Override in action!](images/override_screenshot.jpg "override_screenshot")](http://scenic-shop.com/wp/wp-content/uploads/2010/05/override_screenshot.jpg)
+[![Text Override in action!](../images/override_screenshot.jpg "override_screenshot")](http://scenic-shop.com/wp/wp-content/uploads/2010/05/override_screenshot.jpg)
 
 Cool huh?  Note that none of the actual measurements were harmed in the picture above.  In the text overrides, "1 1/2" O.C." is actually "<> O.C."  Autocad swaps out the <> with the measurement.  That's some sweet stuff.
 

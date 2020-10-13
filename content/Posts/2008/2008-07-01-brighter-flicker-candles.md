@@ -3,7 +3,7 @@ title: "Brighter Flicker Candles"
 date: "2008-07-01"
 ---
 
-![FlickerLamp](images/FlickerLamp.png "FlickerLamp")
+![FlickerLamp](../images/FlickerLamp.png "FlickerLamp")
 
 Is anyone satisfied with the way that flicker candles look on stage? If you didn't raise your hand, then read on. If you did raise your hand, well, keep reading anyways. On the surface, this article is about designing & building a bright, adjustable flicker candle. I'll let you in on a secret: the candle itself is only a foil. Dig deeper and you will find the untapped potential (in most theatres) of the hardware at the heart of the effect: an open source microprocessor. I feel I may have lost half of the readers right there, but I insist you hang on. The candle may be nifty in its own right, but when you realize the potential and flexibility packed into this bit of hardware, your top will pop... So I urge you, read on.
 
@@ -30,11 +30,11 @@ After a day of research, it was apparent that readily available commercial flick
 
 The brain of the effect is a microprocessor. What is a microprocessor? It is a simple computer that has inputs and outputs. Typically the inputs are connected to switches, sensors, computers and the like. The outputs are connected to motors, LEDs, computers and such. You load code into the microprocessor, and the device will use the inputs and outputs however the code tells it to. You can also attach bluetooth, zigbee and other wired & wireless communication modules to microprocessor boards. (More on [microprocessors](http://en.wikipedia.org/wiki/Microprocessor).)
 
-Perhaps now you have a grasp on how much potential this technology has for use in theatre effects. Microprocessors have been around for years and years, they reside in almost all digital devices, your clock radio, pedometer & calculator are only the tip of the iceberg. Why aren't they more more widely used in home-brew theatre effects? Price, expertise, and more expertise used to be mighty good reasons. Recent years have shown the pro/con teeter-totter tipping the other way. The components are now cheap, programming is not nearly as daunting as it used to be, and a huge online community of hobbyists and professionals are only a few clicks away. ![The Lillypad Circuit Board](images/Lillypad.jpg "The Lillypad Circuit Board")
+Perhaps now you have a grasp on how much potential this technology has for use in theatre effects. Microprocessors have been around for years and years, they reside in almost all digital devices, your clock radio, pedometer & calculator are only the tip of the iceberg. Why aren't they more more widely used in home-brew theatre effects? Price, expertise, and more expertise used to be mighty good reasons. Recent years have shown the pro/con teeter-totter tipping the other way. The components are now cheap, programming is not nearly as daunting as it used to be, and a huge online community of hobbyists and professionals are only a few clicks away. ![The Lillypad Circuit Board](../images/Lillypad.jpg "The Lillypad Circuit Board")
 
 The microprocessors that were selected to control the candles were [Arduinos](http://www.arduino.cc/). An [Arduino](http://www.arduino.cc/) is an [open source hardware](http://en.wikipedia.org/wiki/Open_source_hardware) project that is designed to be simple to program, readily available, cheap and well supported by the developers & hobbyist community. There are several different Arduino form factors (read: sizes). You can read about them at the Arduino [hardware](http://www.arduino.cc/en/Main/Hardware) page. The specific models we chose was the Arduino Lilypad. The Lilypads are designed to be sewn into clothing, and as such they are water resistant, compact (2" in diameter) and are very thin. At $20 dollars a pop, they didn't break the bank either.
 
-### **The Candle** ![flickercircuit](images/flickercircuit.jpg "flickercircuit")
+### **The Candle** [Flicker Circuit](../images/flickercircuit.jpg "Flicker Circuit")
 
 You can download a pdf of the schematic here: [FlickerCircuit.pdf](http://scenic-shop.com/files/pdf/FlickerCircuit.pdf)
 

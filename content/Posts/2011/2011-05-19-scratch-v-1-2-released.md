@@ -9,7 +9,7 @@ Scratch - the scratchpad layer utility for AutoCAD - has been updated to version
 
 Hard to believe its been over a year since I released an update to Scratch.  This update is kind of a sea change for the program, see the notes below.  On another note, this is the last release I am going to issue; I use it every day, and it hasn't been an active development project for a while.  I might post a short screencast describing how to use it.  I hope you get as much use out of it as I have.  And be forewarned, I've got some really cool stuff I've been working on.
 
-![](images/scratch.png "scratch!")
+![](../images/scratch.png "scratch!")
 
 Usage:
 
