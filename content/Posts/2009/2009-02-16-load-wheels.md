@@ -1,11 +1,12 @@
 ---
 title: "Load Wheels"
 date: "2009-02-16"
+tags: ["Solutions"]
 ---
 
 File this under great hardware finds. - I needed low-profile, high capacity wheels for an effect and stumbled onto these. They are load wheels for a pallet jack (the wheels pictured are Crown part number 44506 / McMaster 2670T58. The yellow caster mounts are shop built.)
 
-[![Loadwheels](../images/BW2009-02-10-at-18-31-26.png)](http://scenic-shop.com/wp/wp-content/uploads/2009/02/BW2009-02-10-at-18-31-26.png)
+![Loadwheels](../images/BW2009-02-10-at-18-31-26.png)
 
 44506 Load wheel specs:
 

@@ -1,11 +1,12 @@
 ---
 title: "Littlest Track Dog (mark II)"
 date: "2010-01-08"
+tags: ["Solutions"]
 ---
 
 This is the mark II design for the tiny track dog I [posted earlier](https://scenic-shop.com/wp/2009/12/littlest-dog-evar/).   This version features a sandwich style construction, which has several benefits over the mark I design.
 
-[![Littlest Track Dog (mark II)](../images/Dog-MarkII.jpg "Littlest Track Dog (mark II)")](http://scenic-shop.com/wp/wp-content/uploads/2010/01/Dog-MarkII.jpg)
+![Littlest Track Dog (mark II)](../images/Dog-MarkII.jpg)
 
 Securing the aircraft cable through this dog should be vastly easier than the first version.  It's as simple as two set screws, a few copper inserts, and four flat head machine screws.  Machining the cable path in the first version wasn't too hard, but cleaning meeting two small, blind holes 135 degrees apart did prove a challenge.  As a result, threading the cable through dog #1 was an exercise in aggravation, something I do not care to repeat.
 

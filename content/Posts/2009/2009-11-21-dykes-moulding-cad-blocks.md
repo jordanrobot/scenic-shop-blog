@@ -1,6 +1,7 @@
 ---
 title: "Dykes Moulding - CAD Blocks"
 date: "2009-11-21"
+tags: ["AutoCAD", "Blocks"]
 ---
 
 Looking for a collection of the Dykes Lumber moulding profiles in CAD format? Here you go.

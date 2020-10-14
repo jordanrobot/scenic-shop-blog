@@ -1,6 +1,7 @@
 ---
 title: "Stock Power Supplies for Effects"
 date: "2009-04-09"
+tags: ["Solutions"]
 ---
 
 Here’s a quick post on using computer power supplies to power DC effects.

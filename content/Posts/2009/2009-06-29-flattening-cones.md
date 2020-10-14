@@ -1,6 +1,7 @@
 ---
 title: "Flattening Cones"
 date: "2009-06-29"
+tags: ["Math", "Tools"]
 ---
 
 Update:  I just updated this frustum calculator with javascript versions that will run from the browser.  One will calculate the flattened frustum from the [radii](http://www.scenic-shop.com/Calculators/frustum_flatten.html#radius_page), the other uses the [circumferences](http://www.scenic-shop.com/Calculators/frustum_flatten.html) of the frustum shape.

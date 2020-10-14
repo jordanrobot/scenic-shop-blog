@@ -1,6 +1,7 @@
 ---
 title: "Scratch! v0.8 Released."
 date: "2010-02-23"
+tags: ["AutoCAD", "Code"]
 ---
 
 Scratch! has been updated to version 0.8.
@@ -14,5 +15,3 @@ This version adds a couple of features and bug-fixes:
 - If the temporary layer is off or frozen when invoked, it is automatically thawed and turned on.
 
 For those of you who don't know what I'm talking about, Scratch! is an Autolisp utility for AutoCAD that provides a quick & simple way to utilize a temporary scratchpad layer. Scratch allows you to quickly switch in & out of the scratchpad layer, and empty it away whenever you want.  You can read more about it at the original article, [Scratch! (an AutoCAD Scratchpad Utility)](https://scenic-shop.com/wp/2009/11/scratch-an-autocad-scratchpad-utility/)
-
-[![kick it on CadKicks.com](http://cadkicks.com:80/Services/Images/KickItImageGenerator.ashx?url=http%3a%2f%2fscenic-shop.com%2fwp%2f2010%2f02%2fscratch-v0-8-released%2f&bgcolor=FF9900&cfgcolor=FFFFFF&cbgcolor=000000)](http://cadkicks.com:80/kick/?url=http%3a%2f%2fscenic-shop.com%2fwp%2f2010%2f02%2fscratch-v0-8-released%2f)

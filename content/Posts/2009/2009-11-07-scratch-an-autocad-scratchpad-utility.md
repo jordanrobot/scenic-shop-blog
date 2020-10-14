@@ -1,8 +1,7 @@
 ---
 title: "Scratch! (An AutoCAD Scratchpad Utility)"
 date: "2009-11-07"
-taxonomies:
-  tag: images
+tags: ["AutoCAD", "Code"]
 ---
 
 Scratch provides a quick & simple way to utilize a temporary scratchpad layer in AutoCAD. Scratch allows you to quickly switch in & out of the scratchpad layer, and throw it away whenever you want, leaving the rest of your AutoCAD drawing untouched.

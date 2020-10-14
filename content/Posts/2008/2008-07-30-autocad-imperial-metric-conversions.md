@@ -1,6 +1,7 @@
 ---
 title: "AutoCAD Imperial & Metric Conversions"
 date: "2008-07-30"
+tags: ["AutoCAD"]
 ---
 
 Yesterday a friend asked me how to convert an AutoCAD drawing from metric to imperial. He needed to dimension in inches and draw imperial sized objects inside a metric drawing. Turns out the Autocad help is not so helpful on this specific subject.

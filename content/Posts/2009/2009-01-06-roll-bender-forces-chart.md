@@ -1,6 +1,7 @@
 ---
 title: "Roll Bender Forces Chart"
 date: "2009-01-06"
+tags: ["Math"]
 ---
 
 How much force does it take to bend 3”x16ga box tube to a 5’ radius in one pass? What’s the largest steel shape you can jam in a typical scene shop-built manual roll bender without cracking a roller? A week ago I didn’t know the answer to either one of these questions, now I’ve got a pretty good idea.

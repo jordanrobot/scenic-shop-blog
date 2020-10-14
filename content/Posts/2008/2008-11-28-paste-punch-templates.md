@@ -1,6 +1,7 @@
 ---
 title: "Paste & Punch Templates"
 date: "2008-11-28"
+tags: ["Solutions"]
 ---
 
 While in grad school I became a fan of what I like to call Past & Punch Templates. When you need to fabricate a part that is particularly funky or needs to be exceedingly precise, you print a full sized drawing from CAD and past it onto the material that needs to be machined. Fairly simple right? For years I’ve used spray 77 to adhere the template to the part, but then you have to deal with removing the adhesive from the part when it is going to be painted or moves against another part. A step I feel too lazy to take at times.

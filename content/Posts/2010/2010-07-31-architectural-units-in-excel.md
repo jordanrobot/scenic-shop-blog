@@ -1,6 +1,7 @@
 ---
 title: "Architectural Units in Excel"
 date: "2010-07-31"
+tags: ["Excel", "Code"]
 ---
 
 Here we give out excel formulas to do math with architectural measurements (e.g. 14'-3").

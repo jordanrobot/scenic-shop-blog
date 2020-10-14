@@ -1,6 +1,7 @@
 ---
 title: "More Pivoting..."
 date: "2008-09-18"
+tags: ["Solutions"]
 ---
 
 ![morePivoting](../images/morePivoting.jpg "morePivoting")

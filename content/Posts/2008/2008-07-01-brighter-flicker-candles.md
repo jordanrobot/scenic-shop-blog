@@ -1,6 +1,7 @@
 ---
 title: "Brighter Flicker Candles"
 date: "2008-07-01"
+tags: ["Solutions"]
 ---
 
 ![FlickerLamp](../images/FlickerLamp.png "FlickerLamp")

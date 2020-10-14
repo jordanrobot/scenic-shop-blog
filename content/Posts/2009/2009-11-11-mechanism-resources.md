@@ -1,6 +1,7 @@
 ---
 title: "Mechanism Resources"
 date: "2009-11-11"
+tags: ["Solutions"]
 ---
 
 This one's for the mech heads and purveyors of fine machinery.

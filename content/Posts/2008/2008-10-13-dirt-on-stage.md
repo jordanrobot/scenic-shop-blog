@@ -1,6 +1,7 @@
 ---
 title: "Dirt on Stage"
 date: "2008-10-13"
+tags: ["Solutions"]
 ---
 
 Dirt on stage. Poo poo. Dusty, dirty, a real pain in the ass. Jen tells me that she’s got a way to tame the dust. The secret is glycerol (aka glycerine or glycerin). Don’t worry, glycerol may sound threatening, but rest assured, it is not. It is a sugar alcohol that is found in everything from food to pharmaceuticals. Obligatory [wiki link to glycerol](http://en.wikipedia.org/wiki/Glycerol). You can buy glycerol in 5 gallon buckets, which should last most folks for an entire run.

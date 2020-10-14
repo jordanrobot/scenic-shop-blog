@@ -1,6 +1,7 @@
 ---
 title: "Flicker Candle Movies"
 date: "2008-10-11"
+tags: ["Solutions"]
 ---
 
 Good news everybody! I’ve finally posted movies of the flicker candles in action.  Jeez, that took long enough.  Build info [here](http://scenic-shop.com/wp/2008/07/brighter-flicker-candles/).

@@ -1,6 +1,7 @@
 ---
 title: "More calculator updates..."
 date: "2014-01-31"
+tags: ["Tools"]
 ---
 
 New calculators:

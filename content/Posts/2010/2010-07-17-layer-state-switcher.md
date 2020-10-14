@@ -1,6 +1,7 @@
 ---
 title: "Layer State Switcher"
 date: "2010-07-17"
+tags: ["AutoCAD", "Code"]
 ---
 
 This AutoCAD lisp command transparently saves the current layerstate.  Subsequent invocations switch between the saved state and the current state.  You can go back and forth until your eyes pop out.

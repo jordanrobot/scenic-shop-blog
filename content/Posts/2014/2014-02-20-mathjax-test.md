@@ -1,6 +1,7 @@
 ---
 title: "Mathjax test"
 date: "2014-02-20"
+tags: ["Math"]
 ---
 
 This is a test of the new Mathjax plugin. Also, a quick little cheat sheet for right-angle trig identities; useful for calculating component forces of an angular force.
