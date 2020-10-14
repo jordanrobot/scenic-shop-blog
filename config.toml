@@ -8,7 +8,7 @@ theme = "minimal"
 [params]
     author = "Matthew D. Jordan"
     description = "Technical Theatre Musings and Articles"
-    githubUsername = "#jordanrobot"
+    githubUsername = "jordanrobot"
     accent = "darkcyan"
     showBorder = true
     backgroundColor = "white"
