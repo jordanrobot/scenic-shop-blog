@@ -1,10 +1,15 @@
 ---
 title: Collector
 description: A powershell script to merge source code files for Autocad and Inventor.
+#repo: "Collector"
+tags: ["Code", "Powershell", "C#"]
+#weight: 0
+draft: false
 ---
 
 
-[![Logo](https://raw.githubusercontent.com/jordanrobot/Collector/master/Images/Collector300.png)](https://github.com/jordanrobot/Collector)
+
+[![Logo](https://raw.githubusercontent.com/jordanrobot/Collector/master/Images/Collector128.png)](https://github.com/jordanrobot/Collector)
 
 
 Designed for use with Autodesk's Inventor iLogic scripts and Autocad LISP files, Collector is intended to allow use of external IDEs such as Visual Studio and support class or module-per-file coding organization.
@@ -45,4 +50,4 @@ See the /Example/ folder for a simple set of code files that illustrates Collect
 
 ## CLI version
 
-There is current work being done to create a fully CLI version of this tool.  It will have more options related to specifying input/output files, file names, recursive searches, etc.
+An executable version is mid-progress, written in C#.  It will eventually have more options related to specifying input/output files, file names, recursive searches, directory depth, etc.
