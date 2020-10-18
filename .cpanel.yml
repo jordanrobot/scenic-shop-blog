@@ -1,0 +1,5 @@
+---
+deployment:
+  tasks:
+    - export DEPLOYPATH=~/public_html/mark6
+    - rsync -a public/ $DEPLOYPATH
