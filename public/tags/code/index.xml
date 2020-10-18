@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Code on Scenic-Shop</title>
+    <link>https://scenic-shop.com/mark6/tags/code/</link>
+    <description>Recent content in Code on Scenic-Shop</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 07 Oct 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://scenic-shop.com/mark6/tags/code/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>AutoLISP Layer Snippets</title>
+      <link>https://scenic-shop.com/mark6/posts/2020/2020-10-07-autolisp-layer-snippets/</link>
+      <pubDate>Wed, 07 Oct 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://scenic-shop.com/mark6/posts/2020/2020-10-07-autolisp-layer-snippets/</guid>
+      <description>These are some of my frequently used AutoLISP snippets for layer management. I&amp;rsquo;ve got a heap of these in a lisp file that I autoload into autocad at startup. You can find the entire file here: layer-shortcuts.lsp.
+If you look through that file, you&amp;rsquo;ll see that I have a common set of layers (for 2D and general work) that I include in every drawing file. The AutoLisp commands help to speed up my drafting with these common layers.</description>
+    </item>
+    
+    <item>
+      <title>Scratch! v. 1.2 released</title>
+      <link>https://scenic-shop.com/mark6/posts/2011/2011-05-19-scratch-v-1-2-released/</link>
+      <pubDate>Thu, 19 May 2011 00:00:00 +0000</pubDate>
+      
+      <guid>https://scenic-shop.com/mark6/posts/2011/2011-05-19-scratch-v-1-2-released/</guid>
+      <description>Scratch - the scratchpad layer utility for AutoCAD - has been updated to version 1.2!
+Download Scratch 1.2 here.
+Hard to believe its been over a year since I released an update to Scratch. This update is kind of a sea change for the program, see the notes below. On another note, this is the last release I am going to issue; I use it every day, and it hasn&amp;rsquo;t been an active development project for a while.</description>
+    </item>
+    
+    <item>
+      <title>Twist Lisp</title>
+      <link>https://scenic-shop.com/mark6/posts/2011/2011-02-08-twist-lisp/</link>
+      <pubDate>Tue, 08 Feb 2011 00:00:00 +0000</pubDate>
+      
+      <guid>https://scenic-shop.com/mark6/posts/2011/2011-02-08-twist-lisp/</guid>
+      <description>Did you know you can precisely rotate the current view of modelspace? This is a killer way to simplify drafting and dimensioning objects on an angle, especially if you have a way to align the current view to an object. (And we do, keep reading.)
+The longhand command is Dview &amp;gt; Dviewblock &amp;gt; Twist. Enter the angle you want to twist the current view to, and you&amp;rsquo;re set. Why type that out every time?</description>
+    </item>
+    
+    <item>
+      <title>Architectural Units in Excel</title>
+      <link>https://scenic-shop.com/mark6/posts/2010/2010-07-31-architectural-units-in-excel/</link>
+      <pubDate>Sat, 31 Jul 2010 00:00:00 +0000</pubDate>
+      
+      <guid>https://scenic-shop.com/mark6/posts/2010/2010-07-31-architectural-units-in-excel/</guid>
+      <description>Here we give out excel formulas to do math with architectural measurements (e.g. 14&#39;-3&amp;quot;).
+I recently had to calculate the total area of our soft goods inventory. With over 80 drapes, that&amp;rsquo;s a lot of number crunching. Luckily our inventory is in an excel file, which includes the height and width of each drape. Okay, make a formula to calculate the square area from those values&amp;hellip; Problem: the measurements are given in feet and inches (e.</description>
+    </item>
+    
+    <item>
+      <title>Improved Layer Isolate</title>
+      <link>https://scenic-shop.com/mark6/posts/2010/2010-07-17-improved-layer-isolate/</link>
+      <pubDate>Sat, 17 Jul 2010 00:00:00 +0000</pubDate>
+      
+      <guid>https://scenic-shop.com/mark6/posts/2010/2010-07-17-improved-layer-isolate/</guid>
+      <description>This Autocad lisp combines the layeriso &amp;amp; layeruniso commands into a single command. Use once to invoke, use again to turn off. You can use fade mode or off mode.
+Download and enjoy!
+command: LI - layer isolate with Fade Mode @ 60% (default) command: LI` - (that&amp;rsquo;s a backtick, next to the 1 key) layer isolate in Off Mode</description>
+    </item>
+    
+    <item>
+      <title>Layer State Switcher</title>
+      <link>https://scenic-shop.com/mark6/posts/2010/2010-07-17-layer-state-switcher/</link>
+      <pubDate>Sat, 17 Jul 2010 00:00:00 +0000</pubDate>
+      
+      <guid>https://scenic-shop.com/mark6/posts/2010/2010-07-17-layer-state-switcher/</guid>
+      <description>This AutoCAD lisp command transparently saves the current layerstate. Subsequent invocations switch between the saved state and the current state. You can go back and forth until your eyes pop out.
+Download and enjoy!
+command: LSS - on first run, it will save a layerstate and exit the command - option: Previous - (default option), saves the current layerstate and switches you to the original saved layerstate. - option: Update - saves the current layerstate for future retrieval.</description>
+    </item>
+    
+    <item>
+      <title>aCAD: Text Override Tool Update</title>
+      <link>https://scenic-shop.com/mark6/posts/2010/2010-05-10-acad-text-override-tool-update/</link>
+      <pubDate>Mon, 10 May 2010 00:00:00 +0000</pubDate>
+      
+      <guid>https://scenic-shop.com/mark6/posts/2010/2010-05-10-acad-text-override-tool-update/</guid>
+      <description>Download Text Override Tool v2.7 - while in AutoCAD type &amp;ldquo;TO&amp;rdquo; to run this routine.
+I&amp;rsquo;ve recently updated my text override tool for AutoCAD. In case you didn&amp;rsquo;t know, you can make the text field in a dimension read anything you want. Ask some hardcore cad users about it, and your castle might be set upon by an angry mob. Why do some drafters revile the text override? Reason: lies, lies, and more damned lies.</description>
+    </item>
+    
+    <item>
+      <title>Scratch! v0.8 Released.</title>
+      <link>https://scenic-shop.com/mark6/posts/2010/2010-02-23-scratch-v0-8-released/</link>
+      <pubDate>Tue, 23 Feb 2010 00:00:00 +0000</pubDate>
+      
+      <guid>https://scenic-shop.com/mark6/posts/2010/2010-02-23-scratch-v0-8-released/</guid>
+      <description>Scratch! has been updated to version 0.8.
+Download Scratch! v.8
+This version adds a couple of features and bug-fixes:
+ The AutoCAD text window no longer pops up when running the EST command. Thank goodness, that was annoying. A new confirmation (with a cool view of all items on the temporary layer) has been added to the EST command. This allows you to see what you are deleting before you do.</description>
+    </item>
+    
+    <item>
+      <title>Scratch! (An AutoCAD Scratchpad Utility)</title>
+      <link>https://scenic-shop.com/mark6/posts/2009/2009-11-07-scratch-an-autocad-scratchpad-utility/</link>
+      <pubDate>Sat, 07 Nov 2009 00:00:00 +0000</pubDate>
+      
+      <guid>https://scenic-shop.com/mark6/posts/2009/2009-11-07-scratch-an-autocad-scratchpad-utility/</guid>
+      <description>Scratch provides a quick &amp;amp; simple way to utilize a temporary scratchpad layer in AutoCAD. Scratch allows you to quickly switch in &amp;amp; out of the scratchpad layer, and throw it away whenever you want, leaving the rest of your AutoCAD drawing untouched.
+I&amp;rsquo;ve been using it for
+ transferring geometry building complex shapes (I use the boundary command later to create objects) throwaway dimensions (when estimating &amp;amp; sketching ideas)  Download UPDATE: Scratch v0.</description>
+    </item>
+    
+    <item>
+      <title>Ruby Shapes</title>
+      <link>https://scenic-shop.com/mark6/posts/2009/2009-10-27-ruby-shapes/</link>
+      <pubDate>Tue, 27 Oct 2009 00:00:00 +0000</pubDate>
+      
+      <guid>https://scenic-shop.com/mark6/posts/2009/2009-10-27-ruby-shapes/</guid>
+      <description>What is RubyShapes? RubyShapes is a Ruby library that defines Shape objects analogous to geometric cross-sections. These Shape objects &amp;ldquo;have&amp;rdquo; the same geometric properties that their real world counterparts do. The long term goal is to use RubyShape objects as building blocks for a larger structural and mechanical calculation software library.
+Geometric cross sections? These are cross sections of 3D objects (square rods, circular rods, rectangular tubing, etc.) Each shapes&#39; cross section has properties that are that are used in structural and mechanical calculations.</description>
+    </item>
+    
+    <item>
+      <title>CADalyzer 0.7 Update (AutoCAD Command Counter)</title>
+      <link>https://scenic-shop.com/mark6/posts/2009/2009-06-26-cadalyzer0-6b/</link>
+      <pubDate>Fri, 26 Jun 2009 00:00:00 +0000</pubDate>
+      
+      <guid>https://scenic-shop.com/mark6/posts/2009/2009-06-26-cadalyzer0-6b/</guid>
+      <description>This is an update to the Cadalyzer script that I posted a few months ago. It will count the number of commands you have used in AutoCAD; it does this by examining your AutoCAD log files. (You can enable log files in AutoCAD’s options dialogue box.)
+Cadalyzer 0.7 on GitHub New features are listed below
+  Counting mechanism has be rebuilt, the script now computes 25 times faster than the previous version!</description>
+    </item>
+    
+    <item>
+      <title>CADalyzer (AutoCAD Command Counter)</title>
+      <link>https://scenic-shop.com/mark6/posts/2009/2009-03-01-cadalyzer-autocad-command-counter/</link>
+      <pubDate>Sun, 01 Mar 2009 00:00:00 +0000</pubDate>
+      
+      <guid>https://scenic-shop.com/mark6/posts/2009/2009-03-01-cadalyzer-autocad-command-counter/</guid>
+      <description>I’ve been working on a Ruby utility to analyze AutoCAD log files. The goal is to count how many times each command is invoked. The basic functionality is all in place, I’ve plans to add more in-depth analysis and perhaps even turn it into a web based tool. For now, you’ll have to download it and run it in the command line. If you want to run this, you’ll need the Ruby programming language runtime installed on your computer.</description>
+    </item>
+    
+    <item>
+      <title>AutoCAD LISP routines</title>
+      <link>https://scenic-shop.com/mark6/posts/2008/2008-08-06-autocad-lisp-routines/</link>
+      <pubDate>Wed, 06 Aug 2008 00:00:00 +0000</pubDate>
+      
+      <guid>https://scenic-shop.com/mark6/posts/2008/2008-08-06-autocad-lisp-routines/</guid>
+      <description>I’ve thrown a few of my most frequently used LISP routines on here. You’ll find the files &amp;amp; descriptions here. I will be adding more as I clean them up and determine where I acquired them (so I can give credit where credit is due.) I am also tinkering with the idea of posting my pgp file; while not especially useful, I am always interested to see what shortcuts other people use.</description>
+    </item>
+    
+    <item>
+      <title>Calculators</title>
+      <link>https://scenic-shop.com/mark6/projects/calculators/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://scenic-shop.com/mark6/projects/calculators/</guid>
+      <description>These are a collection of web-based javascript calculators that are mobile friendly. An abbreviated list of the calculators are as follows:
+ Unit Conversions Hydrulic Piston Force and Speed Winch Force and Speed Winch Drums Motion &amp;amp; Dynamics ANSI Chain Values, Ratings, Sprocket Distance Bearing PV Shock Load Forces Etc&amp;hellip;  How to Use You can find the web-based calculators here: Calculators
+The source is on github in the following repo: Calculators Repo</description>
+    </item>
+    
+    <item>
+      <title>Collector</title>
+      <link>https://scenic-shop.com/mark6/projects/collector/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://scenic-shop.com/mark6/projects/collector/</guid>
+      <description>Designed for use with Autodesk&amp;rsquo;s Inventor iLogic scripts and Autocad LISP files, Collector is intended to allow use of external IDEs such as Visual Studio and support class or module-per-file coding organization.
+This is handy for autolisp routines as well, as they can be stored in seperate files but combined into a single lisp file.
+It is also useful when developing an Inventor Add-In and you want to perform testing in the iLogic environment.</description>
+    </item>
+    
+    <item>
+      <title>InventorShims</title>
+      <link>https://scenic-shop.com/mark6/projects/inventorshims/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://scenic-shop.com/mark6/projects/inventorshims/</guid>
+      <description>InventorShims is a collection of vb.net code to extend and add common API methods and classes to Autodesk Inventor&amp;rsquo;s existing API.
+From simplified methods to interact with iproperties and parameters, to generic methods to return the pertinent document object from a supplied Inventor object type, InventorShims aims to create a library of frequently used methods and classes. These are organized by area of concern, into seperate files; load only what you need.</description>
+    </item>
+    
+  </channel>
+</rss>

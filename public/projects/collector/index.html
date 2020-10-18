@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en-us">
+    <head>
+        
+
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Collector</title>
+        
+        <style>
+
+    html body {
+        font-family: 'Roboto', sans-serif;
+        background-color: white;
+    }
+
+    :root {
+        --accent: darkcyan;
+        --border-width:  5px ;
+    }
+
+</style>
+
+
+<link rel="stylesheet" href="https://scenic-shop.com/mark6/css/main.css">
+
+
+
+
+
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto">
+
+
+ <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.2.1/styles/default.min.css"> 
+
+
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+ 
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js"></script>
+    
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/lisp.min.js"></script>
+    
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/bash.min.js"></script>
+    
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/dos.min.js"></script>
+    
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/csharp.min.js"></script>
+    
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/vbnet.min.js"></script>
+    
+    <script>hljs.initHighlightingOnLoad();</script>
+
+
+
+
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+
+<script>$(document).on('click', function() { $('.collapse').collapse('hide'); })</script>
+ <meta name="generator" content="Hugo 0.76.0" />
+        
+
+        
+
+        
+            <script type="text/javascript" async src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+        
+
+        
+
+    </head>
+
+    <body>
+        
+
+        <nav class="navbar navbar-default navbar-fixed-top">
+            <div class="container">
+                <div class="navbar-header">
+                    <a class="navbar-brand visible-xs" href="#">Collector</a>
+                    <button class="navbar-toggle" data-target=".navbar-collapse" data-toggle="collapse">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                </div>
+                <div class="collapse navbar-collapse">
+                    
+                        <ul class="nav navbar-nav">
+                            
+                                <li><a href="/mark6/">home</a></li>
+                            
+                                <li><a href="/mark6/posts/">posts</a></li>
+                            
+                                <li><a href="/mark6/projects/">projects</a></li>
+                            
+                                <li><a href="https://www.scenic-shop.com/Calculators">calculators</a></li>
+                            
+                        </ul>
+                    
+                    
+                        <ul class="nav navbar-nav navbar-right">
+                            
+                                <li class="navbar-icon"><a href="https://github.com/jordanrobot/"><i class="fa fa-github"></i></a></li>
+                            
+                                <li class="navbar-icon"><a href="https://www.linkedin.com/in/username/"><i class="fa fa-linkedin"></i></a></li>
+                            
+                        </ul>
+                    
+                </div>
+            </div>
+        </nav>
+
+
+<main>
+
+    <div>
+        <h2>Collector</h2>
+        <h5>A powershell script to merge source code files for Autocad and Inventor.</h5>
+        
+<a href="https://scenic-shop.com/mark6/tags/code"><kbd class="item-tag">Code</kbd></a>
+
+<a href="https://scenic-shop.com/mark6/tags/powershell"><kbd class="item-tag">Powershell</kbd></a>
+
+<a href="https://scenic-shop.com/mark6/tags/c"><kbd class="item-tag">C#</kbd></a>
+
+
+    </div>
+
+    <div align="start" class="content"><p><a href="https://github.com/jordanrobot/Collector"><img src="https://raw.githubusercontent.com/jordanrobot/Collector/master/Images/Collector128.png" alt="Logo"></a></p>
+<p>Designed for use with Autodesk&rsquo;s Inventor iLogic scripts and Autocad LISP files, Collector is intended to allow use of external IDEs such as Visual Studio and support class or module-per-file coding organization.</p>
+<p>This is handy for autolisp routines as well, as they can be stored in seperate files but combined into a single lisp file.</p>
+<p>It is also useful when developing an Inventor Add-In and you want to perform testing in the iLogic environment.  The script will collect any source code files within a single directory that contains the proper tag in the first line and insert them into a single iLogic file.</p>
+<h2 id="source-code">Source Code</h2>
+<p>You can find the project repo on github here: <a href="https://github.com/jordanrobot/Collector">Collector</a></p>
+<p>Find the powershell script itself here: <a href="https://raw.githubusercontent.com/jordanrobot/Collector/master/src/CollectorPS/Collector.ps1">Collector.ps1</a></p>
+<h2 id="an-example">An Example&hellip;</h2>
+<p>If I&rsquo;m developing a complex ilogic routine, let&rsquo;s say a BOM export routine, I&rsquo;ll probably choose to place my classes and interfaces in seperate files.  This follows .net best practices, and allows me to use Visual Studio (or another IDE) to manage my codebase.  This provides intellisense, better project navigation, git integration, as well as other goodies.  Collector lets me merge all of the desired files into a single ilogic routine that I can deploy to my CAD users.  This also allows me to more easily transition the ilogic routine into a full-fledged add-in at a later date; most of the work is already done.</p>
+<h2 id="use">Use</h2>
+<p>To use, include tags into the source code files that you want to collect.  Be sure to comment these tags out of the code.  (I&rsquo;ve shown the example below with VB&rsquo;s <code>'</code> comment symbol.)</p>
+<ul>
+<li><code>'&lt;/Collector&gt;</code> : include this tag in the first line of each file you want to collect.</li>
+<li><code>'&lt;/CollectorHeader&gt;</code> : Include this tag in the first line of header and main files. This will ensure the file is placed at the top of the collected file.</li>
+<li><code>'&lt;CollectorPrepend&gt;;&lt;/CollectorPrepend&gt;</code> : include this line after any line of code to comment out that line at collection time.  Use this for module wrappers that help VS, but need to be removed for iLogic to work properly.  Whatever the string between the <!-- raw HTML omitted --> tags, that string will be prepended to each line where the <!-- raw HTML omitted --> tags appear.</li>
+</ul>
+<p>When ready to compile, run this powershell script to combine the files into a single file. If running from the command line, you may need to issue the command like so if permissions issues prevent running the powershell script.</p>
+<p><code>powershell -ExecutionPolicy ByPass -File .\Collector.ps1</code></p>
+<p>The current directory name is used as the file name with an .iLogicVB extension.  This script will overwrite any file with that same name.  If the file is currently open, it will need to be closed or deleted to proceed.</p>
+<h2 id="example-code">Example Code</h2>
+<p>See the /Example/ folder for a simple set of code files that illustrates Collector in action. The Example.iLogicVB file has been generated by the Collector.ps1 script. The files &ldquo;ExporterClass.vb&rdquo;, &ldquo;Main.vb&rdquo;, and &ldquo;SphereClass.vb&rdquo; contain the Collector tags that tells the script what to do.</p>
+<h2 id="cli-version">CLI version</h2>
+<p>An executable version is mid-progress, written in C#.  It will eventually have more options related to specifying input/output files, file names, recursive searches, directory depth, etc.</p>
+</div>
+
+</main>
+
+        <footer>
+            <p class="copyright text-muted">© All rights reserved. Powered by <a href="https://gohugo.io">Hugo</a> and <a href="https://github.com/calintat/minimal">Minimal</a>.</p>
+        </footer>
+
+        
+
+        
+    </body>
+
+</html>
+

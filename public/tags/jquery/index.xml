@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>JQuery on Scenic-Shop</title>
+    <link>https://scenic-shop.com/mark6/tags/jquery/</link>
+    <description>Recent content in JQuery on Scenic-Shop</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language><atom:link href="https://scenic-shop.com/mark6/tags/jquery/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Calculators</title>
+      <link>https://scenic-shop.com/mark6/projects/calculators/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://scenic-shop.com/mark6/projects/calculators/</guid>
+      <description>These are a collection of web-based javascript calculators that are mobile friendly. An abbreviated list of the calculators are as follows:
+ Unit Conversions Hydrulic Piston Force and Speed Winch Force and Speed Winch Drums Motion &amp;amp; Dynamics ANSI Chain Values, Ratings, Sprocket Distance Bearing PV Shock Load Forces Etc&amp;hellip;  How to Use You can find the web-based calculators here: Calculators
+The source is on github in the following repo: Calculators Repo</description>
+    </item>
+    
+  </channel>
+</rss>

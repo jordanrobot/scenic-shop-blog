@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en-us">
+    <head>
+        
+
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>AutoCAD Imperial &amp; Metric Conversions</title>
+        
+        <style>
+
+    html body {
+        font-family: 'Roboto', sans-serif;
+        background-color: white;
+    }
+
+    :root {
+        --accent: darkcyan;
+        --border-width:  5px ;
+    }
+
+</style>
+
+
+<link rel="stylesheet" href="https://scenic-shop.com/mark6/css/main.css">
+
+
+
+
+
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto">
+
+
+ <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.2.1/styles/default.min.css"> 
+
+
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+ 
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js"></script>
+    
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/lisp.min.js"></script>
+    
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/bash.min.js"></script>
+    
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/dos.min.js"></script>
+    
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/csharp.min.js"></script>
+    
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/vbnet.min.js"></script>
+    
+    <script>hljs.initHighlightingOnLoad();</script>
+
+
+
+
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+
+<script>$(document).on('click', function() { $('.collapse').collapse('hide'); })</script>
+ <meta name="generator" content="Hugo 0.76.0" />
+        
+
+        
+
+        
+            <script type="text/javascript" async src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+        
+
+        
+
+    </head>
+
+    <body>
+        
+
+        <nav class="navbar navbar-default navbar-fixed-top">
+            <div class="container">
+                <div class="navbar-header">
+                    <a class="navbar-brand visible-xs" href="#">AutoCAD Imperial &amp; Metric Conversions</a>
+                    <button class="navbar-toggle" data-target=".navbar-collapse" data-toggle="collapse">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                </div>
+                <div class="collapse navbar-collapse">
+                    
+                        <ul class="nav navbar-nav">
+                            
+                                <li><a href="/mark6/">home</a></li>
+                            
+                                <li><a href="/mark6/posts/">posts</a></li>
+                            
+                                <li><a href="/mark6/projects/">projects</a></li>
+                            
+                                <li><a href="https://www.scenic-shop.com/Calculators">calculators</a></li>
+                            
+                        </ul>
+                    
+                    
+                        <ul class="nav navbar-nav navbar-right">
+                            
+                                <li class="navbar-icon"><a href="https://github.com/jordanrobot/"><i class="fa fa-github"></i></a></li>
+                            
+                                <li class="navbar-icon"><a href="https://www.linkedin.com/in/username/"><i class="fa fa-linkedin"></i></a></li>
+                            
+                        </ul>
+                    
+                </div>
+            </div>
+        </nav>
+
+
+<main>
+
+    <div>
+        <h2>AutoCAD Imperial &amp; Metric Conversions</h2>
+        <h5></h5>
+        
+<a href="https://scenic-shop.com/mark6/tags/autocad"><kbd class="item-tag">AutoCAD</kbd></a>
+
+
+    </div>
+
+    <div align="start" class="content"><p>Yesterday a friend asked me how to convert an AutoCAD drawing from metric to imperial. He needed to dimension in inches and draw imperial sized objects inside a metric drawing. Turns out the Autocad help is not so helpful on this specific subject.</p>
+<p><strong>Units &amp; Units:</strong> So here&rsquo;s the deal, AutoCAD “thinks” in a <em>drawing units</em>. These <em>drawing units</em> don’t have a real world size. The only relation to real world size they have is the name that we assign to them in the units dialogue box. But a name doesn’t mean a thing to AutoCAD. 1 metric <em>drawing unit</em> = 1 imperial <em>drawing unit</em> = 1 mile <em>drawing unit</em>.</p>
+<p>Example: when you copy &amp; paste a 12&quot;x12&quot; rectangle into any drawing, AutoCAD really pastes a 12 unit x 12 unit rectangle. If you paste that same 12”x12” rectangle into a millimeter based drawing, the rectangle will only be 12 mm x 12 mm.  Likewise, a 12mm x 12mm rectangle pasted into an inch based drawing will become 12”x12”.</p>
+<p><strong>Conversion Factors:</strong> These common conversion factors will help you out as you keep reading: 1 inch is 25.4 mm 1 mm is 0.0393700787 inches</p>
+<p>There are two easy ways to solving cross unit woes in AutoCAD.</p>
+<p><strong>Soft-Convert:</strong> If you only need to <em>dimension</em> a drawing with different units (e.g. a metric drawing with imperial dimensions,) you can create a dimension style with a SCALE (Dimension Styles &gt; Primary Units tab.) The SCALE is the conversion factor. So if my SCALE is 25.4, when I dimension a 1” line the dimension shown will be 25.4 (1 x 25.4 = 25.4)</p>
+<p>Advanced tip: If you want to forgo the dialogue boxes, you can edit the current dimension style&rsquo;s scale directly by changing the value of the DIMLFAC variable.  Note that DIMLFAC creates a dimension style override (named &ldquo;Style Overrides&rdquo;) that only alters the scale of the current dimension style.</p>
+<p><strong>Hard-Convert:</strong> If you need to actually draw in imperial units when the drawing is in metric units, you will need to scale the objects in the drawing from mm to inch (or vice versa).  No settings or variables here; simply select everything in the drawing and use the scale command (&amp; the correct conversion factors) to resize everything to your desired measurement unit. Now draw away.</p>
+<p><strong>A Note on Insertion Scale:</strong> Something important to note. Many people get waylaid by the &ldquo;Insertion Scale&rdquo; field in the &ldquo;Units&rdquo; dialogue box. This _does_automatically scale inserted content to the selected unit, but only when you are inserting objects such as blocks, drawings, or images. If you need to paste cross-unit objects between drawings, writing them to a block and inserting may be your best bet. If you want, you can use the INSUNITS variable to change this setting.</p>
+<p>Optional tip. You can also set the &ldquo;Insertion Scale&rdquo; to Unitless and specify the default source and target units in the &ldquo;Options/User Preferences&rdquo; dialogue box. Inserted objects will automatically scale between the source and target units you set, regardless of what unit the drawing file was created with.</p>
+<p>The most useful information ends here. For those who program LISP routines, a rant follows&hellip;</p>
+<p>It boggles my mind that AutoCAD does not have an optional real-time scaling factor built-in for drawing differing units in the same drawing. This would consist of 1) a global drawing unit, as supplied by the user or the template. This would tell Autocad what measurement unit the drawing is in. 2) A scaling factor would be calculated and applied to objects as they are drawn. AutoCAD would compare the entered unit to the global unit and apply the appropriate conversion factor to object drawn or edited. Perhaps the same can be achieved using a LISP routine. If there are any takers, please drop me a line.</p>
+</div>
+
+</main>
+
+        <footer>
+            <p class="copyright text-muted">© All rights reserved. Powered by <a href="https://gohugo.io">Hugo</a> and <a href="https://github.com/calintat/minimal">Minimal</a>.</p>
+        </footer>
+
+        
+
+        
+    </body>
+
+</html>
+

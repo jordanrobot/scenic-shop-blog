@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Excel on Scenic-Shop</title>
+    <link>https://scenic-shop.com/mark6/tags/excel/</link>
+    <description>Recent content in Excel on Scenic-Shop</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 31 Jul 2010 00:00:00 +0000</lastBuildDate><atom:link href="https://scenic-shop.com/mark6/tags/excel/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Architectural Units in Excel</title>
+      <link>https://scenic-shop.com/mark6/posts/2010/2010-07-31-architectural-units-in-excel/</link>
+      <pubDate>Sat, 31 Jul 2010 00:00:00 +0000</pubDate>
+      
+      <guid>https://scenic-shop.com/mark6/posts/2010/2010-07-31-architectural-units-in-excel/</guid>
+      <description>Here we give out excel formulas to do math with architectural measurements (e.g. 14&#39;-3&amp;quot;).
+I recently had to calculate the total area of our soft goods inventory. With over 80 drapes, that&amp;rsquo;s a lot of number crunching. Luckily our inventory is in an excel file, which includes the height and width of each drape. Okay, make a formula to calculate the square area from those values&amp;hellip; Problem: the measurements are given in feet and inches (e.</description>
+    </item>
+    
+  </channel>
+</rss>

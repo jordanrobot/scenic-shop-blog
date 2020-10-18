@@ -1,0 +1,766 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Scenic-Shop</title>
+    <link>https://scenic-shop.com/mark6/</link>
+    <description>Recent content on Scenic-Shop</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 18 Oct 2020 00:40:53 -0400</lastBuildDate><atom:link href="https://scenic-shop.com/mark6/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Git remote fix for &#39;receive.denycurrentbranch&#39; in ./config</title>
+      <link>https://scenic-shop.com/mark6/posts/2020/git-remote-fix/</link>
+      <pubDate>Sun, 18 Oct 2020 00:40:53 -0400</pubDate>
+      
+      <guid>https://scenic-shop.com/mark6/posts/2020/git-remote-fix/</guid>
+      <description>This is a just a quick reminder to myself about a cpanel git issue that I&amp;rsquo;ve found a fix for.
+When accessing a git remote from a webphosting provider thru ssh, you may get the error&amp;hellip; &amp;ldquo;fatal: bad config value for &amp;lsquo;receive.denycurrentbranch&amp;rsquo; in ./config&amp;rdquo;
+The fix for it was simple after you realize what&amp;rsquo;s going on. It turns out that there are sometimes more than one version of git installed in web-hosting providers.</description>
+    </item>
+    
+    <item>
+      <title>AutoLISP Layer Snippets</title>
+      <link>https://scenic-shop.com/mark6/posts/2020/2020-10-07-autolisp-layer-snippets/</link>
+      <pubDate>Wed, 07 Oct 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://scenic-shop.com/mark6/posts/2020/2020-10-07-autolisp-layer-snippets/</guid>
+      <description>These are some of my frequently used AutoLISP snippets for layer management. I&amp;rsquo;ve got a heap of these in a lisp file that I autoload into autocad at startup. You can find the entire file here: layer-shortcuts.lsp.
+If you look through that file, you&amp;rsquo;ll see that I have a common set of layers (for 2D and general work) that I include in every drawing file. The AutoLisp commands help to speed up my drafting with these common layers.</description>
+    </item>
+    
+    <item>
+      <title>Mathjax test</title>
+      <link>https://scenic-shop.com/mark6/posts/2014/2014-02-20-mathjax-test/</link>
+      <pubDate>Thu, 20 Feb 2014 00:00:00 +0000</pubDate>
+      
+      <guid>https://scenic-shop.com/mark6/posts/2014/2014-02-20-mathjax-test/</guid>
+      <description>This is a test of the new Mathjax plugin. Also, a quick little cheat sheet for right-angle trig identities; useful for calculating component forces of an angular force.
+$$ o = h \, \sin \, \theta = a \, \tan \, \theta $$
+$$ a = h \, \cos \, \theta = \frac {o}{\tan \, \theta} $$
+$$ h = \frac {o}{\sin \, \theta} = \frac {a} {\cos \, \theta} $$</description>
+    </item>
+    
+    <item>
+      <title>Parallel Key Calculator Added</title>
+      <link>https://scenic-shop.com/mark6/posts/2014/2014-02-01-parallel-key-calculator-added/</link>
+      <pubDate>Sat, 01 Feb 2014 00:00:00 +0000</pubDate>
+      
+      <guid>https://scenic-shop.com/mark6/posts/2014/2014-02-01-parallel-key-calculator-added/</guid>
+      <description>Added here: Parallel Keys.
+Check out the formula page to see what it calculates for.</description>
+    </item>
+    
+    <item>
+      <title>More calculator updates...</title>
+      <link>https://scenic-shop.com/mark6/posts/2014/2014-01-31-more-calculator-updates/</link>
+      <pubDate>Fri, 31 Jan 2014 00:00:00 +0000</pubDate>
+      
+      <guid>https://scenic-shop.com/mark6/posts/2014/2014-01-31-more-calculator-updates/</guid>
+      <description>New calculators:
+ Motion calculator (with forces and estimated power calcs) Plain Bearing: PV Yoyo Winch calcs Pulley Tread and Bore Pressure D:d Ratio (with strength reduction calc)  Other notable changes:
+ The Unit Conversion calculator now include electrical units Added to the Constants page. Added formula pages for each calculator (example) Added diagrams to those that need them Updated the jquery mobile library to 1.4.0. Added a revision log Most multi-page calculators were re-written to provide a simpler interface.</description>
+    </item>
+    
+    <item>
+      <title>Calculator Updates</title>
+      <link>https://scenic-shop.com/mark6/posts/2013/2013-11-20-calculator-updates/</link>
+      <pubDate>Wed, 20 Nov 2013 00:00:00 +0000</pubDate>
+      
+      <guid>https://scenic-shop.com/mark6/posts/2013/2013-11-20-calculator-updates/</guid>
+      <description>Some Calculator updates:
+I&amp;rsquo;ve finished an ANSI Chain Calculator; you&amp;rsquo;ll find it in the main index. It calculates the following:
+ Physical properties of standard ANSI chains (multi-strands too), Pitch length to inch length converter Estimated chain elongation calculation Estimated chain weight per length of selected chain Center-to-center calculators for a two-sprocket system, calculating by sprocket centers or by chain length Sprocket properties for the selected chain size, including pitch diameter, outside diameter, and tooth width.</description>
+    </item>
+    
+    <item>
+      <title>Bevy of CAD Blogs</title>
+      <link>https://scenic-shop.com/mark6/posts/2013/2013-11-07-bevy-of-cad-blogs/</link>
+      <pubDate>Thu, 07 Nov 2013 00:00:00 +0000</pubDate>
+      
+      <guid>https://scenic-shop.com/mark6/posts/2013/2013-11-07-bevy-of-cad-blogs/</guid>
+      <description>While I do work primarily in the entertainment industry, I like to keep an eye on the larger world of CAD news. Here&amp;rsquo;s the current list of CAD related blogs I keep up with&amp;hellip;
+Design and Motion
+SolidSmack - Product Design, CAD, Prototyping, etc. Of EvD Media fame, highly recommend their podcast, Engineer Vs. Designer. Oh, note to self, podcasts are a post for the future&amp;hellip;
+MasterGraphics blog - these guys have some good tips and tricks, found them while searching from info on Inventor tips.</description>
+    </item>
+    
+    <item>
+      <title>Update, and calculators</title>
+      <link>https://scenic-shop.com/mark6/posts/2013/2013-05-05-update-and-calculators/</link>
+      <pubDate>Sun, 05 May 2013 00:00:00 +0000</pubDate>
+      
+      <guid>https://scenic-shop.com/mark6/posts/2013/2013-05-05-update-and-calculators/</guid>
+      <description>Yes, I&amp;rsquo;m still alive. No, I haven&amp;rsquo;t posted in over a year. Yes, I&amp;rsquo;m still working for a large live entertainment company.
+A quick update, the earlier calculator scripts that I mentioned in the last few posts are no longer working. I&amp;rsquo;ve instead been working on a unified collection of calculators using the jquery mobile framework; the aim is to be phone and tablet friendly. Catch it in the links above, or here.</description>
+    </item>
+    
+    <item>
+      <title>Frustum Calculator</title>
+      <link>https://scenic-shop.com/mark6/posts/2011/2011-11-20-frustum-calculator/</link>
+      <pubDate>Sun, 20 Nov 2011 00:00:00 +0000</pubDate>
+      
+      <guid>https://scenic-shop.com/mark6/posts/2011/2011-11-20-frustum-calculator/</guid>
+      <description>I just updated my frustum calculator to two javascript versions. One will calculate the flattened frustum from the radii, the other uses the circumferences of the frustum shape.</description>
+    </item>
+    
+    <item>
+      <title>Fluid Power Calculator</title>
+      <link>https://scenic-shop.com/mark6/posts/2011/2011-11-02-fluid-power-calculator/</link>
+      <pubDate>Wed, 02 Nov 2011 00:00:00 +0000</pubDate>
+      
+      <guid>https://scenic-shop.com/mark6/posts/2011/2011-11-02-fluid-power-calculator/</guid>
+      <description>I&amp;rsquo;ve been playing around with learning javascript recently. I&amp;rsquo;ve thrown together a fluid power calculator as a &amp;ldquo;hello world&amp;rdquo;. You can find it here: Fluid Power Calculator It&amp;rsquo;s not pretty, but it works pretty well. (See what I did there?) You can download the page and run it locally if you want.
+My ultimate goal is to transfer all of my theatre-related excel calculators to javascript powered web pages, so I can access them wherever I happen to be.</description>
+    </item>
+    
+    <item>
+      <title>Scratch! v. 1.2 released</title>
+      <link>https://scenic-shop.com/mark6/posts/2011/2011-05-19-scratch-v-1-2-released/</link>
+      <pubDate>Thu, 19 May 2011 00:00:00 +0000</pubDate>
+      
+      <guid>https://scenic-shop.com/mark6/posts/2011/2011-05-19-scratch-v-1-2-released/</guid>
+      <description>Scratch - the scratchpad layer utility for AutoCAD - has been updated to version 1.2!
+Download Scratch 1.2 here.
+Hard to believe its been over a year since I released an update to Scratch. This update is kind of a sea change for the program, see the notes below. On another note, this is the last release I am going to issue; I use it every day, and it hasn&amp;rsquo;t been an active development project for a while.</description>
+    </item>
+    
+    <item>
+      <title>Wiki going down...</title>
+      <link>https://scenic-shop.com/mark6/posts/2011/2011-03-14-wiki-going-down/</link>
+      <pubDate>Mon, 14 Mar 2011 00:00:00 +0000</pubDate>
+      
+      <guid>https://scenic-shop.com/mark6/posts/2011/2011-03-14-wiki-going-down/</guid>
+      <description>I&amp;rsquo;ve decided to do away with the scenic-shop wiki. I&amp;rsquo;ve little patience for cleaning up the spam and junk that kept accumulating. It was quite the failed experiment in any case; I&amp;rsquo;m both disappointed and frustrated with the outcome. This makes two failed attempts at starting up an open forum for technical theatre solutions. Why the failure? 1) Perhaps writing for a wiki format is too challenging or takes too long; though I would describe very few of the successful stagehands I know as slow - so that&amp;rsquo;s probably not the reason.</description>
+    </item>
+    
+    <item>
+      <title>Twist Lisp</title>
+      <link>https://scenic-shop.com/mark6/posts/2011/2011-02-08-twist-lisp/</link>
+      <pubDate>Tue, 08 Feb 2011 00:00:00 +0000</pubDate>
+      
+      <guid>https://scenic-shop.com/mark6/posts/2011/2011-02-08-twist-lisp/</guid>
+      <description>Did you know you can precisely rotate the current view of modelspace? This is a killer way to simplify drafting and dimensioning objects on an angle, especially if you have a way to align the current view to an object. (And we do, keep reading.)
+The longhand command is Dview &amp;gt; Dviewblock &amp;gt; Twist. Enter the angle you want to twist the current view to, and you&amp;rsquo;re set. Why type that out every time?</description>
+    </item>
+    
+    <item>
+      <title>Pianos &amp; Steel. CAD Block Giveaway!</title>
+      <link>https://scenic-shop.com/mark6/posts/2010/2010-12-21-pianos-steel-cad-block-giveaway/</link>
+      <pubDate>Tue, 21 Dec 2010 00:00:00 +0000</pubDate>
+      
+      <guid>https://scenic-shop.com/mark6/posts/2010/2010-12-21-pianos-steel-cad-block-giveaway/</guid>
+      <description>I just realized I never posted those grand piano cad blocks I promised months ago. You can snag them here (version 2k). Egg. face. mine.
+While I&amp;rsquo;m at it - this is a link to some commonly used steel profile blocks. Some of them are dynamic, so you&amp;rsquo;ll need a newer (2006? I&amp;rsquo;m too lazy to look it up right now) version of autocad to utilize them. Inside you&amp;rsquo;ll find:</description>
+    </item>
+    
+    <item>
+      <title>Site Update</title>
+      <link>https://scenic-shop.com/mark6/posts/2010/2010-10-30-site-update/</link>
+      <pubDate>Sat, 30 Oct 2010 00:00:00 +0000</pubDate>
+      
+      <guid>https://scenic-shop.com/mark6/posts/2010/2010-10-30-site-update/</guid>
+      <description>For the three people who keep up with this blog, you&amp;rsquo;ve probably noticed that I haven&amp;rsquo;t updated at all in the past several months. Sorry about that - I&amp;rsquo;ve recently taken an engineering gig for Production Resource Group&amp;rsquo;s scene shop, which includes confidentiality agreements and such. At this point I&amp;rsquo;m not sure what is and isn&amp;rsquo;t considered a trade secret, so I&amp;rsquo;m holding off on posting any solutions derived from work.</description>
+    </item>
+    
+    <item>
+      <title>Stagecraft Wiki Updates</title>
+      <link>https://scenic-shop.com/mark6/posts/2010/2010-08-07-stagecraft-wiki-updates/</link>
+      <pubDate>Sat, 07 Aug 2010 00:00:00 +0000</pubDate>
+      
+      <guid>https://scenic-shop.com/mark6/posts/2010/2010-08-07-stagecraft-wiki-updates/</guid>
+      <description>Good news, I recently added some anti-spam measures to the Stagecraft Wiki, and as a result have re-enabled anonymous editing. This means you don&amp;rsquo;t need to login to share your brilliant ideas! (Hint, hint)
+I&amp;rsquo;ve also added a few more pages. Our upcoming show has a grand piano, so I&amp;rsquo;ve thrown some research up at piano dimensions. I&amp;rsquo;ll add some cad blocks for the various sizes in a bit.
+Also metal tube gauges, cord locks, arboron, and low tack adhesives.</description>
+    </item>
+    
+    <item>
+      <title>Architectural Units in Excel</title>
+      <link>https://scenic-shop.com/mark6/posts/2010/2010-07-31-architectural-units-in-excel/</link>
+      <pubDate>Sat, 31 Jul 2010 00:00:00 +0000</pubDate>
+      
+      <guid>https://scenic-shop.com/mark6/posts/2010/2010-07-31-architectural-units-in-excel/</guid>
+      <description>Here we give out excel formulas to do math with architectural measurements (e.g. 14&#39;-3&amp;quot;).
+I recently had to calculate the total area of our soft goods inventory. With over 80 drapes, that&amp;rsquo;s a lot of number crunching. Luckily our inventory is in an excel file, which includes the height and width of each drape. Okay, make a formula to calculate the square area from those values&amp;hellip; Problem: the measurements are given in feet and inches (e.</description>
+    </item>
+    
+    <item>
+      <title>Improved Layer Isolate</title>
+      <link>https://scenic-shop.com/mark6/posts/2010/2010-07-17-improved-layer-isolate/</link>
+      <pubDate>Sat, 17 Jul 2010 00:00:00 +0000</pubDate>
+      
+      <guid>https://scenic-shop.com/mark6/posts/2010/2010-07-17-improved-layer-isolate/</guid>
+      <description>This Autocad lisp combines the layeriso &amp;amp; layeruniso commands into a single command. Use once to invoke, use again to turn off. You can use fade mode or off mode.
+Download and enjoy!
+command: LI - layer isolate with Fade Mode @ 60% (default) command: LI` - (that&amp;rsquo;s a backtick, next to the 1 key) layer isolate in Off Mode</description>
+    </item>
+    
+    <item>
+      <title>Layer State Switcher</title>
+      <link>https://scenic-shop.com/mark6/posts/2010/2010-07-17-layer-state-switcher/</link>
+      <pubDate>Sat, 17 Jul 2010 00:00:00 +0000</pubDate>
+      
+      <guid>https://scenic-shop.com/mark6/posts/2010/2010-07-17-layer-state-switcher/</guid>
+      <description>This AutoCAD lisp command transparently saves the current layerstate. Subsequent invocations switch between the saved state and the current state. You can go back and forth until your eyes pop out.
+Download and enjoy!
+command: LSS - on first run, it will save a layerstate and exit the command - option: Previous - (default option), saves the current layerstate and switches you to the original saved layerstate. - option: Update - saves the current layerstate for future retrieval.</description>
+    </item>
+    
+    <item>
+      <title>Littlest Track Dog - The Real Thing</title>
+      <link>https://scenic-shop.com/mark6/posts/2010/2010-06-18-littlest-track-dog-the-real-thing/</link>
+      <pubDate>Fri, 18 Jun 2010 00:00:00 +0000</pubDate>
+      
+      <guid>https://scenic-shop.com/mark6/posts/2010/2010-06-18-littlest-track-dog-the-real-thing/</guid>
+      <description>These are the finished pictures from the tiny track dog project. (Man, that was a long time ago.) And the results were: success! They worked like a charm. There was no cable slip, no binding in the track, and the travel noise was minimal. We noticed that the UHMW bowed (approx 1/32&amp;quot;) at the bottom when the cable was tightened down, which was expected from such small bits of hardware. Nick simply pre-tightened the cable, and carefully shaved the dogs on the tablesaw &amp;ndash; done.</description>
+    </item>
+    
+    <item>
+      <title>Where tape measures go to die...</title>
+      <link>https://scenic-shop.com/mark6/posts/2010/2010-06-18-where-tape-measures-go-to-die/</link>
+      <pubDate>Fri, 18 Jun 2010 00:00:00 +0000</pubDate>
+      
+      <guid>https://scenic-shop.com/mark6/posts/2010/2010-06-18-where-tape-measures-go-to-die/</guid>
+      <description>A recent trip to the Thunder Dome (our steel recycling center) yielded this amusing photo. Yes, that is a heaping pile of tape measure blades. Yikes.</description>
+    </item>
+    
+    <item>
+      <title>aCAD: Text Override Tool Update</title>
+      <link>https://scenic-shop.com/mark6/posts/2010/2010-05-10-acad-text-override-tool-update/</link>
+      <pubDate>Mon, 10 May 2010 00:00:00 +0000</pubDate>
+      
+      <guid>https://scenic-shop.com/mark6/posts/2010/2010-05-10-acad-text-override-tool-update/</guid>
+      <description>Download Text Override Tool v2.7 - while in AutoCAD type &amp;ldquo;TO&amp;rdquo; to run this routine.
+I&amp;rsquo;ve recently updated my text override tool for AutoCAD. In case you didn&amp;rsquo;t know, you can make the text field in a dimension read anything you want. Ask some hardcore cad users about it, and your castle might be set upon by an angry mob. Why do some drafters revile the text override? Reason: lies, lies, and more damned lies.</description>
+    </item>
+    
+    <item>
+      <title>Scratch! v0.8 Released.</title>
+      <link>https://scenic-shop.com/mark6/posts/2010/2010-02-23-scratch-v0-8-released/</link>
+      <pubDate>Tue, 23 Feb 2010 00:00:00 +0000</pubDate>
+      
+      <guid>https://scenic-shop.com/mark6/posts/2010/2010-02-23-scratch-v0-8-released/</guid>
+      <description>Scratch! has been updated to version 0.8.
+Download Scratch! v.8
+This version adds a couple of features and bug-fixes:
+ The AutoCAD text window no longer pops up when running the EST command. Thank goodness, that was annoying. A new confirmation (with a cool view of all items on the temporary layer) has been added to the EST command. This allows you to see what you are deleting before you do.</description>
+    </item>
+    
+    <item>
+      <title>Video from Coming Home</title>
+      <link>https://scenic-shop.com/mark6/posts/2010/2010-02-10-new-video-from-coming-home/</link>
+      <pubDate>Wed, 10 Feb 2010 00:00:00 +0000</pubDate>
+      
+      <guid>https://scenic-shop.com/mark6/posts/2010/2010-02-10-new-video-from-coming-home/</guid>
+      <description>Just finished editing this video for my portfolio, thought other might find it interesting.</description>
+    </item>
+    
+    <item>
+      <title>Littlest Track Dog (mark II)</title>
+      <link>https://scenic-shop.com/mark6/posts/2010/2010-01-08-littlest-track-dog-mark-ii/</link>
+      <pubDate>Fri, 08 Jan 2010 00:00:00 +0000</pubDate>
+      
+      <guid>https://scenic-shop.com/mark6/posts/2010/2010-01-08-littlest-track-dog-mark-ii/</guid>
+      <description>This is the mark II design for the tiny track dog I posted earlier. This version features a sandwich style construction, which has several benefits over the mark I design.
+Securing the aircraft cable through this dog should be vastly easier than the first version. It&amp;rsquo;s as simple as two set screws, a few copper inserts, and four flat head machine screws. Machining the cable path in the first version wasn&amp;rsquo;t too hard, but cleaning meeting two small, blind holes 135 degrees apart did prove a challenge.</description>
+    </item>
+    
+    <item>
+      <title>Boat Rollers added to Wiki</title>
+      <link>https://scenic-shop.com/mark6/posts/2009/2009-12-24-boat-rollers-added-to-wiki/</link>
+      <pubDate>Thu, 24 Dec 2009 00:00:00 +0000</pubDate>
+      
+      <guid>https://scenic-shop.com/mark6/posts/2009/2009-12-24-boat-rollers-added-to-wiki/</guid>
+      <description>Just finished adding an article about bow rollers on the Stagecraft Wiki. Click here to read more. </description>
+    </item>
+    
+    <item>
+      <title>Littlest Dog Evar?</title>
+      <link>https://scenic-shop.com/mark6/posts/2009/2009-12-24-littlest-dog-evar/</link>
+      <pubDate>Thu, 24 Dec 2009 00:00:00 +0000</pubDate>
+      
+      <guid>https://scenic-shop.com/mark6/posts/2009/2009-12-24-littlest-dog-evar/</guid>
+      <description>Is this the littlest track dog ever? Perhaps. Either way, it&amp;rsquo;s sooo cute! This prototype track dog measures in at 3/4&amp;quot; x 15/32&amp;quot; x 3.5&amp;quot; and is milled from a solid chunk of UHMW. (Ignore the oily grime, its fresh off the bridgeport.) The 1/8&amp;quot; aircraft cable is secured with two set screws in the opposite face of the dog. I&amp;rsquo;m thinking the mark 2 will feature a sandwich style construction with a fixed knife.</description>
+    </item>
+    
+    <item>
+      <title>Laser Scissors!</title>
+      <link>https://scenic-shop.com/mark6/posts/2009/2009-12-13-laser-scissors/</link>
+      <pubDate>Sun, 13 Dec 2009 00:00:00 +0000</pubDate>
+      
+      <guid>https://scenic-shop.com/mark6/posts/2009/2009-12-13-laser-scissors/</guid>
+      <description>A few weeks ago the ladies of the costume shop found the latest and greatest leap in scissor technology ever. At some point during the laughter, they bought it and are now planning to use it&amp;rsquo;s terrible powers for theatre-wide domination. Just be careful, you could put an eye out with that thing.</description>
+    </item>
+    
+    <item>
+      <title>Guides from Gak</title>
+      <link>https://scenic-shop.com/mark6/posts/2009/2009-11-24-guides-from-gak/</link>
+      <pubDate>Tue, 24 Nov 2009 00:00:00 +0000</pubDate>
+      
+      <guid>https://scenic-shop.com/mark6/posts/2009/2009-11-24-guides-from-gak/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Dykes Moulding - CAD Blocks</title>
+      <link>https://scenic-shop.com/mark6/posts/2009/2009-11-21-dykes-moulding-cad-blocks/</link>
+      <pubDate>Sat, 21 Nov 2009 00:00:00 +0000</pubDate>
+      
+      <guid>https://scenic-shop.com/mark6/posts/2009/2009-11-21-dykes-moulding-cad-blocks/</guid>
+      <description>Looking for a collection of the Dykes Lumber moulding profiles in CAD format? Here you go.
+Download the Dykes Moulding file here. (381 kb)
+The profiles have been compiled into a single file, each profile a separate block. (Design Center users rejoice!) This file is in v2000 format. Much thanks goes to Adam Godbout for providing the file.
+Happy CADDing.
+Edit: The following download contains the collection of Dykes profiles in individual dxf files.</description>
+    </item>
+    
+    <item>
+      <title>Stock Power Supplies... Revisited</title>
+      <link>https://scenic-shop.com/mark6/posts/2009/2009-11-20-stock-power-supplies-revisited/</link>
+      <pubDate>Fri, 20 Nov 2009 00:00:00 +0000</pubDate>
+      
+      <guid>https://scenic-shop.com/mark6/posts/2009/2009-11-20-stock-power-supplies-revisited/</guid>
+      <description>Months ago I wrote a brief ditty about modifying commonly available computer power supplies to power low voltage DC effects. You&amp;rsquo;ll find the original article here. I wasn&amp;rsquo;t completely satisfied with the first one I modified. You can see it in the picture below, it&amp;rsquo;s the ugly one to the left. After perusing a Mouser catalogue this summer, I found what I was looking for - barrier strips with pass-thru terminals.</description>
+    </item>
+    
+    <item>
+      <title>Weld-Bearings</title>
+      <link>https://scenic-shop.com/mark6/posts/2009/2009-11-17-weld-bearings/</link>
+      <pubDate>Tue, 17 Nov 2009 00:00:00 +0000</pubDate>
+      
+      <guid>https://scenic-shop.com/mark6/posts/2009/2009-11-17-weld-bearings/</guid>
+      <description>You need small, ad hoc, weld-on bearings? Check this out. Use a plastic bushing, a shaft collar and a cone-point socket set screw. Weld the shaft collar over a hole, and keep the plastic bushing in place with the set screw (the cone point is key). Feel free to add a little threadlocker if you&amp;rsquo;re paranoid. Works like a charm.</description>
+    </item>
+    
+    <item>
+      <title>Secondhand Monopod</title>
+      <link>https://scenic-shop.com/mark6/posts/2009/2009-11-14-secondhand-monopod/</link>
+      <pubDate>Sat, 14 Nov 2009 00:00:00 +0000</pubDate>
+      
+      <guid>https://scenic-shop.com/mark6/posts/2009/2009-11-14-secondhand-monopod/</guid>
+      <description>I like to take detailed pictures of the scene designer&amp;rsquo;s model for each set we build. Inevitably the director and stage managers want the model in rehearsal, and it becomes difficult to share. Things get really hairy when the scenic charge wants a piece of the action.
+Obviously, the stiller the camera, the clearer the picture. I set out to find a secondhand something I could use as a monopod. Let this be a lesson: ask a prop person for a monopod, and you&amp;rsquo;ll get a showerhead.</description>
+    </item>
+    
+    <item>
+      <title>Mechanism Resources</title>
+      <link>https://scenic-shop.com/mark6/posts/2009/2009-11-11-mechanism-resources/</link>
+      <pubDate>Wed, 11 Nov 2009 00:00:00 +0000</pubDate>
+      
+      <guid>https://scenic-shop.com/mark6/posts/2009/2009-11-11-mechanism-resources/</guid>
+      <description>This one&amp;rsquo;s for the mech heads and purveyors of fine machinery.
+Cornell University’s Reuleaux Collection is a collection of 220 machines. The machines include various crank mechanisms, couplings, linkages, compound gearing&amp;hellip; the list goes on. The website itself is a catalogue of the 19th century machines - some with accompanying videos and technical documentation. In my opinion, the machines themselves are functional, beautifully crafted works of art; they deserve some attention.</description>
+    </item>
+    
+    <item>
+      <title>Scratch! (An AutoCAD Scratchpad Utility)</title>
+      <link>https://scenic-shop.com/mark6/posts/2009/2009-11-07-scratch-an-autocad-scratchpad-utility/</link>
+      <pubDate>Sat, 07 Nov 2009 00:00:00 +0000</pubDate>
+      
+      <guid>https://scenic-shop.com/mark6/posts/2009/2009-11-07-scratch-an-autocad-scratchpad-utility/</guid>
+      <description>Scratch provides a quick &amp;amp; simple way to utilize a temporary scratchpad layer in AutoCAD. Scratch allows you to quickly switch in &amp;amp; out of the scratchpad layer, and throw it away whenever you want, leaving the rest of your AutoCAD drawing untouched.
+I&amp;rsquo;ve been using it for
+ transferring geometry building complex shapes (I use the boundary command later to create objects) throwaway dimensions (when estimating &amp;amp; sketching ideas)  Download UPDATE: Scratch v0.</description>
+    </item>
+    
+    <item>
+      <title>Ruby Shapes</title>
+      <link>https://scenic-shop.com/mark6/posts/2009/2009-10-27-ruby-shapes/</link>
+      <pubDate>Tue, 27 Oct 2009 00:00:00 +0000</pubDate>
+      
+      <guid>https://scenic-shop.com/mark6/posts/2009/2009-10-27-ruby-shapes/</guid>
+      <description>What is RubyShapes? RubyShapes is a Ruby library that defines Shape objects analogous to geometric cross-sections. These Shape objects &amp;ldquo;have&amp;rdquo; the same geometric properties that their real world counterparts do. The long term goal is to use RubyShape objects as building blocks for a larger structural and mechanical calculation software library.
+Geometric cross sections? These are cross sections of 3D objects (square rods, circular rods, rectangular tubing, etc.) Each shapes&#39; cross section has properties that are that are used in structural and mechanical calculations.</description>
+    </item>
+    
+    <item>
+      <title>Transmaterial</title>
+      <link>https://scenic-shop.com/mark6/posts/2009/2009-08-23-transmaterial/</link>
+      <pubDate>Sun, 23 Aug 2009 00:00:00 +0000</pubDate>
+      
+      <guid>https://scenic-shop.com/mark6/posts/2009/2009-08-23-transmaterial/</guid>
+      <description>For those of you who are interested in new materials, check out Transmaterial. I can’t describe it better than this quote from the site:
+ &amp;hellip;Transmaterial online is intended to be a clear, concise, accessible, and carefully edited resource that provides information about the latest and most intriguing materials commercially available.
+ A little more&amp;hellip;
+ As the speed of technological progress continues to accelerate, innovation threatens to outpace architects’ and designers’ working knowledge of materials thereby limiting their applicability.</description>
+    </item>
+    
+    <item>
+      <title>Flattening Cones</title>
+      <link>https://scenic-shop.com/mark6/posts/2009/2009-06-29-flattening-cones/</link>
+      <pubDate>Mon, 29 Jun 2009 00:00:00 +0000</pubDate>
+      
+      <guid>https://scenic-shop.com/mark6/posts/2009/2009-06-29-flattening-cones/</guid>
+      <description>Update: I just updated this frustum calculator with javascript versions that will run from the browser. One will calculate the flattened frustum from the radii, the other uses the circumferences of the frustum shape.
+Have you ever wanted to lay out the frustum of a cone on a flat surface?” “A what?” “A frustum, the part of a cone that is left when you lop off the top.” “Oh, yeah. If I had a nickel&amp;hellip; sadly, I’m still poor.</description>
+    </item>
+    
+    <item>
+      <title>CADalyzer 0.7 Update (AutoCAD Command Counter)</title>
+      <link>https://scenic-shop.com/mark6/posts/2009/2009-06-26-cadalyzer0-6b/</link>
+      <pubDate>Fri, 26 Jun 2009 00:00:00 +0000</pubDate>
+      
+      <guid>https://scenic-shop.com/mark6/posts/2009/2009-06-26-cadalyzer0-6b/</guid>
+      <description>This is an update to the Cadalyzer script that I posted a few months ago. It will count the number of commands you have used in AutoCAD; it does this by examining your AutoCAD log files. (You can enable log files in AutoCAD’s options dialogue box.)
+Cadalyzer 0.7 on GitHub New features are listed below
+  Counting mechanism has be rebuilt, the script now computes 25 times faster than the previous version!</description>
+    </item>
+    
+    <item>
+      <title>Dykes Moulding - CAD Files</title>
+      <link>https://scenic-shop.com/mark6/posts/2009/2009-05-25-dykes-moulding-cad-files/</link>
+      <pubDate>Mon, 25 May 2009 00:00:00 +0000</pubDate>
+      
+      <guid>https://scenic-shop.com/mark6/posts/2009/2009-05-25-dykes-moulding-cad-files/</guid>
+      <description>If you’ve downloaded the Dykes Moulding CAD files from their website you may have noticed that the profiles are not to scale. From what I could see, the scale factor seems to be the same for all the files, approximately 0.056568174.</description>
+    </item>
+    
+    <item>
+      <title>Mirrored Flats: A Learning Experience</title>
+      <link>https://scenic-shop.com/mark6/posts/2009/2009-05-25-mirrored-flats-a-learning-experience/</link>
+      <pubDate>Mon, 25 May 2009 00:00:00 +0000</pubDate>
+      
+      <guid>https://scenic-shop.com/mark6/posts/2009/2009-05-25-mirrored-flats-a-learning-experience/</guid>
+      <description>Found out a couple of pitfalls when building flats with mirrored acrylic skins. Our usual acrylic adhesive is a two part methacrylate based adhesive. It works incredibly well when bonding acrylic to just about any substrate (steel, wood, other plastics&amp;hellip;) Some formulations cure to a relatively clear finish, which is quite the selling point. Unfortunately, we found that methacrylates will distort the mirror coating on mirrored plexi. Whoops. You can see the distortion in the picture below.</description>
+    </item>
+    
+    <item>
+      <title>Slick Edging</title>
+      <link>https://scenic-shop.com/mark6/posts/2009/2009-04-09-slick-edging/</link>
+      <pubDate>Thu, 09 Apr 2009 00:00:00 +0000</pubDate>
+      
+      <guid>https://scenic-shop.com/mark6/posts/2009/2009-04-09-slick-edging/</guid>
+      <description>Here’s another choice for edging a deck and other scenic elements: paper. We recently did a production of Bad Dates and the designer wanted a smooth black finish for the “cut” edges of the walls and deck. Since the audience was sitting only four feet from the set, we experimented with wallpapering with a 50# black kraft paper. The advantages were as follows.
+ the paper is thin enough to make the edges very clean the texture was very flat, smooth and consistent - much like bristol board.</description>
+    </item>
+    
+    <item>
+      <title>Stock Power Supplies for Effects</title>
+      <link>https://scenic-shop.com/mark6/posts/2009/2009-04-09-stock-power-supplies-for-effects/</link>
+      <pubDate>Thu, 09 Apr 2009 00:00:00 +0000</pubDate>
+      
+      <guid>https://scenic-shop.com/mark6/posts/2009/2009-04-09-stock-power-supplies-for-effects/</guid>
+      <description>Here’s a quick post on using computer power supplies to power DC effects.
+Pull a power supply out of a computer and go to town! The most common computer power supplies (ATX form factor) provide several different DC voltages, such as +3v, -3v, +5v, -5v, +12v, and -12v. Mix and match between those specific wires or the common and you’ve got most of your onstage effects covered. For example, for our current show we’re using the +12v and -12v leads to power several 24v solenoid valves.</description>
+    </item>
+    
+    <item>
+      <title>The Guide to Sound Effects</title>
+      <link>https://scenic-shop.com/mark6/posts/2009/2009-03-04-the-guide-to-sound-effects/</link>
+      <pubDate>Wed, 04 Mar 2009 00:00:00 +0000</pubDate>
+      
+      <guid>https://scenic-shop.com/mark6/posts/2009/2009-03-04-the-guide-to-sound-effects/</guid>
+      <description>For an excellent list of foley solutions, visit David Filskov’s The Guide to Sound Effects. Great list sorted in alphabetic order, highly recommended. Thanks to Valerie for pointing this out.</description>
+    </item>
+    
+    <item>
+      <title>CADalyzer (AutoCAD Command Counter)</title>
+      <link>https://scenic-shop.com/mark6/posts/2009/2009-03-01-cadalyzer-autocad-command-counter/</link>
+      <pubDate>Sun, 01 Mar 2009 00:00:00 +0000</pubDate>
+      
+      <guid>https://scenic-shop.com/mark6/posts/2009/2009-03-01-cadalyzer-autocad-command-counter/</guid>
+      <description>I’ve been working on a Ruby utility to analyze AutoCAD log files. The goal is to count how many times each command is invoked. The basic functionality is all in place, I’ve plans to add more in-depth analysis and perhaps even turn it into a web based tool. For now, you’ll have to download it and run it in the command line. If you want to run this, you’ll need the Ruby programming language runtime installed on your computer.</description>
+    </item>
+    
+    <item>
+      <title>Introducing A Stagecraft Wiki</title>
+      <link>https://scenic-shop.com/mark6/posts/2009/2009-03-01-introducing-a-stagecraft-wiki/</link>
+      <pubDate>Sun, 01 Mar 2009 00:00:00 +0000</pubDate>
+      
+      <guid>https://scenic-shop.com/mark6/posts/2009/2009-03-01-introducing-a-stagecraft-wiki/</guid>
+      <description>I&amp;rsquo;m starting a functional Stagecraft Wiki for theatre technicians. You will find it at wiki.scenic-shop.com
+For those of you in the know, the past few years I have been wrestling with creating a community based resource for theatre technicians. Now the same software that runs Wikipedia is being used to manage a wiki by theatremakers, for theatremakers.
+For those of you who worry about such things, the wiki&amp;rsquo;s content is (and will remain) free to all.</description>
+    </item>
+    
+    <item>
+      <title>Load Wheels</title>
+      <link>https://scenic-shop.com/mark6/posts/2009/2009-02-16-load-wheels/</link>
+      <pubDate>Mon, 16 Feb 2009 00:00:00 +0000</pubDate>
+      
+      <guid>https://scenic-shop.com/mark6/posts/2009/2009-02-16-load-wheels/</guid>
+      <description>File this under great hardware finds. - I needed low-profile, high capacity wheels for an effect and stumbled onto these. They are load wheels for a pallet jack (the wheels pictured are Crown part number 44506 / McMaster 2670T58. The yellow caster mounts are shop built.)
+44506 Load wheel specs:
+ 2500 lbs load rating! 3” diameter x 3 7/8” wide Roller ball bearings Shore 90A polyurethane tread Slightly oversized 3/4” shaft (about 25/32”) $30 each from Mcmaster $45 each from a Crown distributor (price will undoubtably vary)  What makes these attractive?</description>
+    </item>
+    
+    <item>
+      <title>(Good) Math Links</title>
+      <link>https://scenic-shop.com/mark6/posts/2009/2009-02-05-good-math-links/</link>
+      <pubDate>Thu, 05 Feb 2009 00:00:00 +0000</pubDate>
+      
+      <guid>https://scenic-shop.com/mark6/posts/2009/2009-02-05-good-math-links/</guid>
+      <description>Ever wish you were better at math? Me too. I’ve been teaching myself calculus and stumbled on Better Explained, a blog with excellent math explanations. The author’s aim is to make math concepts intuitive. Now I actually understand what the imaginary number ‘i’ is all about; it wasn’t hard at all.
+Sure most people think math is boring, but that’s because they probably don’t really “get” it. Don’t worry, it’s not your fault you don’t enjoy math.</description>
+    </item>
+    
+    <item>
+      <title>Roll Bender Wheels</title>
+      <link>https://scenic-shop.com/mark6/posts/2009/2009-01-21-roll-bender-wheels/</link>
+      <pubDate>Wed, 21 Jan 2009 00:00:00 +0000</pubDate>
+      
+      <guid>https://scenic-shop.com/mark6/posts/2009/2009-01-21-roll-bender-wheels/</guid>
+      <description>Danger Will Robinson! The cast iron wheels pictured below are the ones that were spec’ed in Keith Cornelius’s 1997 Tech Expo article_An Inexpensive, Human-Powered Roll-Former_. (Grainer part numbers are #3G262 and #3G263.) Obviously they’ve changed a little bit since 1997; the new “feature” is a crown to the surface of the wheel. Unless you’re looking to mangle your steel whilst bending, I suggest you find flatter wheels.
+I suggest finding flatter iron wheels through Mcmaster-Carr.</description>
+    </item>
+    
+    <item>
+      <title>Rotary Table - in Pieces!</title>
+      <link>https://scenic-shop.com/mark6/posts/2009/2009-01-11-rotary-table-in-pieces/</link>
+      <pubDate>Sun, 11 Jan 2009 00:00:00 +0000</pubDate>
+      
+      <guid>https://scenic-shop.com/mark6/posts/2009/2009-01-11-rotary-table-in-pieces/</guid>
+      <description>This is what a rotary milling table looks like after disassembly. Sweet. </description>
+    </item>
+    
+    <item>
+      <title>Sound Business Card</title>
+      <link>https://scenic-shop.com/mark6/posts/2009/2009-01-10-sound-business-card/</link>
+      <pubDate>Sat, 10 Jan 2009 00:00:00 +0000</pubDate>
+      
+      <guid>https://scenic-shop.com/mark6/posts/2009/2009-01-10-sound-business-card/</guid>
+      <description>Man, I wish I still did sound design. I got bored and made a business card. For what reason, I don’t know. Contact information follows on the other side in a similar style, but I didn’t post it for obvious reasons.</description>
+    </item>
+    
+    <item>
+      <title>Roll Bender Forces Chart</title>
+      <link>https://scenic-shop.com/mark6/posts/2009/2009-01-06-roll-bender-forces-chart/</link>
+      <pubDate>Tue, 06 Jan 2009 00:00:00 +0000</pubDate>
+      
+      <guid>https://scenic-shop.com/mark6/posts/2009/2009-01-06-roll-bender-forces-chart/</guid>
+      <description>How much force does it take to bend 3”x16ga box tube to a 5’ radius in one pass? What’s the largest steel shape you can jam in a typical scene shop-built manual roll bender without cracking a roller? A week ago I didn’t know the answer to either one of these questions, now I’ve got a pretty good idea.
+We’re talking about making a roll bender at work, and are waffling over whether to build a manual or motorized bender.</description>
+    </item>
+    
+    <item>
+      <title>New Online Portfolio</title>
+      <link>https://scenic-shop.com/mark6/posts/2009/2009-01-05-new-online-portfolio/</link>
+      <pubDate>Mon, 05 Jan 2009 00:00:00 +0000</pubDate>
+      
+      <guid>https://scenic-shop.com/mark6/posts/2009/2009-01-05-new-online-portfolio/</guid>
+      <description>My new online portfolio is live. You can check it out here, or from the sidebar.</description>
+    </item>
+    
+    <item>
+      <title>Learning TIG</title>
+      <link>https://scenic-shop.com/mark6/posts/2008/2008-12-18-learning-tig/</link>
+      <pubDate>Thu, 18 Dec 2008 00:00:00 +0000</pubDate>
+      
+      <guid>https://scenic-shop.com/mark6/posts/2008/2008-12-18-learning-tig/</guid>
+      <description>There’s a great instructable on how to TIG weld on the loose. Those who’ve already mastered any other welding process will probably enjoy it. While you’re at it, check out Cheap Welding for Punks.</description>
+    </item>
+    
+    <item>
+      <title>Additional Porta-band Thoughts</title>
+      <link>https://scenic-shop.com/mark6/posts/2008/2008-12-15-additional-porta-band-thoughts/</link>
+      <pubDate>Mon, 15 Dec 2008 00:00:00 +0000</pubDate>
+      
+      <guid>https://scenic-shop.com/mark6/posts/2008/2008-12-15-additional-porta-band-thoughts/</guid>
+      <description>Quick thought on the porta-band stand described in an earlier post, mounting the saw to the vice-mount takes a couple of minutes. You could make a smaller custom foot that always stays on the saw and “dovetails” into the vice mount. A single machine screw could be used to secure the small foot to the mount. This way the saw could go from case to vice (and back again) in under 30 seconds.</description>
+    </item>
+    
+    <item>
+      <title>Porta-band Stand on the Cheap</title>
+      <link>https://scenic-shop.com/mark6/posts/2008/2008-12-11-porta-band-stand-on-the-cheap/</link>
+      <pubDate>Thu, 11 Dec 2008 00:00:00 +0000</pubDate>
+      
+      <guid>https://scenic-shop.com/mark6/posts/2008/2008-12-11-porta-band-stand-on-the-cheap/</guid>
+      <description>Ian made this custom foot for the Porta-band that clamps into the vice this past week. Its 3/8” cold roll plate with a bit of scrap 1x box tube welded to the underside. A spring clamp on the trigger acts as a low tech on/off switch. .</description>
+    </item>
+    
+    <item>
+      <title>The LevelMug®</title>
+      <link>https://scenic-shop.com/mark6/posts/2008/2008-12-02-the-levelmug%c2%ae/</link>
+      <pubDate>Tue, 02 Dec 2008 00:00:00 +0000</pubDate>
+      
+      <guid>https://scenic-shop.com/mark6/posts/2008/2008-12-02-the-levelmug%c2%ae/</guid>
+      <description>I love coffee. I also love levels. What would be better than a coffee-mug level? The LevelMug® is the perfect mutli-tool intended for spot checking scenery &amp;amp; frustrating your carpenters between production meetings. Once filled with coffee or tea LevelMug®’s proprietary precision ground MugMarks® allow you to quickly estimate level to within 2.5 degrees. Note: Only use the LevelMug® in the vertical and horizontal planes. Especially when it’s filled with hot coffee.</description>
+    </item>
+    
+    <item>
+      <title>Chunking Projects</title>
+      <link>https://scenic-shop.com/mark6/posts/2008/2008-11-30-chunking-projects/</link>
+      <pubDate>Sun, 30 Nov 2008 00:00:00 +0000</pubDate>
+      
+      <guid>https://scenic-shop.com/mark6/posts/2008/2008-11-30-chunking-projects/</guid>
+      <description>Just a few random thoughts on the tail end of a turkey weekend.
+Do you design &amp;amp; engineer solutions whilst drafting? Consider planning out your projects more before you sit down at the computer or drafting table. It seems that most people just dive right in. Oh sure, there’s budgeting and scheduling (and hopefully element lists) that will help define the project and help you to focus on the various bits and pieces.</description>
+    </item>
+    
+    <item>
+      <title>Paste &amp; Punch Templates</title>
+      <link>https://scenic-shop.com/mark6/posts/2008/2008-11-28-paste-punch-templates/</link>
+      <pubDate>Fri, 28 Nov 2008 00:00:00 +0000</pubDate>
+      
+      <guid>https://scenic-shop.com/mark6/posts/2008/2008-11-28-paste-punch-templates/</guid>
+      <description>While in grad school I became a fan of what I like to call Past &amp;amp; Punch Templates. When you need to fabricate a part that is particularly funky or needs to be exceedingly precise, you print a full sized drawing from CAD and past it onto the material that needs to be machined. Fairly simple right? For years I’ve used spray 77 to adhere the template to the part, but then you have to deal with removing the adhesive from the part when it is going to be painted or moves against another part.</description>
+    </item>
+    
+    <item>
+      <title>Dirt on Stage</title>
+      <link>https://scenic-shop.com/mark6/posts/2008/2008-10-13-dirt-on-stage/</link>
+      <pubDate>Mon, 13 Oct 2008 00:00:00 +0000</pubDate>
+      
+      <guid>https://scenic-shop.com/mark6/posts/2008/2008-10-13-dirt-on-stage/</guid>
+      <description>Dirt on stage. Poo poo. Dusty, dirty, a real pain in the ass. Jen tells me that she’s got a way to tame the dust. The secret is glycerol (aka glycerine or glycerin). Don’t worry, glycerol may sound threatening, but rest assured, it is not. It is a sugar alcohol that is found in everything from food to pharmaceuticals. Obligatory wiki link to glycerol. You can buy glycerol in 5 gallon buckets, which should last most folks for an entire run.</description>
+    </item>
+    
+    <item>
+      <title>Flicker Candle Movies</title>
+      <link>https://scenic-shop.com/mark6/posts/2008/2008-10-11-flicker-candle-movies/</link>
+      <pubDate>Sat, 11 Oct 2008 00:00:00 +0000</pubDate>
+      
+      <guid>https://scenic-shop.com/mark6/posts/2008/2008-10-11-flicker-candle-movies/</guid>
+      <description>Good news everybody! I’ve finally posted movies of the flicker candles in action. Jeez, that took long enough. Build info here.
+flicker_light
+flicker_dark</description>
+    </item>
+    
+    <item>
+      <title>Acad - Saving Keystrokes!</title>
+      <link>https://scenic-shop.com/mark6/posts/2008/2008-10-02-acad-saving-keystrokes/</link>
+      <pubDate>Thu, 02 Oct 2008 00:00:00 +0000</pubDate>
+      
+      <guid>https://scenic-shop.com/mark6/posts/2008/2008-10-02-acad-saving-keystrokes/</guid>
+      <description>(Or: How I Stopped Worring and Learned to Love the Command Alias)
+If you are an avid AutoCAD user, you know that setting up your command aliases is key. For those interested, I’ve put my customized portion of the acad.pgp file here.
+For those of you who are not familiar with AutoCAD’s command aliases, you’re in for a treat. Every time you enter “rec” instead of “rectangle,” or “l” instead of “line” you are using a command alias.</description>
+    </item>
+    
+    <item>
+      <title>Pivoting Success!</title>
+      <link>https://scenic-shop.com/mark6/posts/2008/2008-10-02-pivoting-success/</link>
+      <pubDate>Thu, 02 Oct 2008 00:00:00 +0000</pubDate>
+      
+      <guid>https://scenic-shop.com/mark6/posts/2008/2008-10-02-pivoting-success/</guid>
+      <description>Update for “Pivot Puck” post. &amp;ndash; We installed the pivoting masking wall today, and it was a smashing success. Pivot pucks are definitely going into our stock inventory.</description>
+    </item>
+    
+    <item>
+      <title>More Pivoting...</title>
+      <link>https://scenic-shop.com/mark6/posts/2008/2008-09-18-more-pivoting/</link>
+      <pubDate>Thu, 18 Sep 2008 00:00:00 +0000</pubDate>
+      
+      <guid>https://scenic-shop.com/mark6/posts/2008/2008-09-18-more-pivoting/</guid>
+      <description>Continuing in the pivoting vein, these are the pivot points we are using for the top of the masking walls I mentioned above. If you haven’t seen the half cheesebouroughs before, they are hard to beat when attaching stuff to pipe.
+edit: Oh yeah, you can find them at BMI.</description>
+    </item>
+    
+    <item>
+      <title>Pivot Puck</title>
+      <link>https://scenic-shop.com/mark6/posts/2008/2008-09-18-pivot-puck/</link>
+      <pubDate>Thu, 18 Sep 2008 00:00:00 +0000</pubDate>
+      
+      <guid>https://scenic-shop.com/mark6/posts/2008/2008-09-18-pivot-puck/</guid>
+      <description>We need to pivot a few masking walls for our upcoming production of Hughie. So this little UHMW bugger was born; I like to call it a pivot puck. Screw the puck to a surface and place a shaft in it (our shaft is welded to plate steel that bears on the top surface of the puck) and you’ve got an instant pivot point! (Just make sure the screw heads are countersunk below the surface.</description>
+    </item>
+    
+    <item>
+      <title>The Lazy Drafter (blog)</title>
+      <link>https://scenic-shop.com/mark6/posts/2008/2008-08-12-the-lazy-drafter-blog/</link>
+      <pubDate>Tue, 12 Aug 2008 00:00:00 +0000</pubDate>
+      
+      <guid>https://scenic-shop.com/mark6/posts/2008/2008-08-12-the-lazy-drafter-blog/</guid>
+      <description>The Lazy Drafter. I stumbled across this site a few days ago. As I am a lazy drafter myself, I’m already a big fan. If you work in AutoCAD, consider it recommended reading.
+For those who enjoyed the post on imperial &amp;amp; Metric Conversions, I’ll recommend this post (Automatic Scaling&amp;hellip;), it compliments mine nicely.</description>
+    </item>
+    
+    <item>
+      <title>AutoCAD LISP routines</title>
+      <link>https://scenic-shop.com/mark6/posts/2008/2008-08-06-autocad-lisp-routines/</link>
+      <pubDate>Wed, 06 Aug 2008 00:00:00 +0000</pubDate>
+      
+      <guid>https://scenic-shop.com/mark6/posts/2008/2008-08-06-autocad-lisp-routines/</guid>
+      <description>I’ve thrown a few of my most frequently used LISP routines on here. You’ll find the files &amp;amp; descriptions here. I will be adding more as I clean them up and determine where I acquired them (so I can give credit where credit is due.) I am also tinkering with the idea of posting my pgp file; while not especially useful, I am always interested to see what shortcuts other people use.</description>
+    </item>
+    
+    <item>
+      <title>AutoCAD Imperial &amp; Metric Conversions</title>
+      <link>https://scenic-shop.com/mark6/posts/2008/2008-07-30-autocad-imperial-metric-conversions/</link>
+      <pubDate>Wed, 30 Jul 2008 00:00:00 +0000</pubDate>
+      
+      <guid>https://scenic-shop.com/mark6/posts/2008/2008-07-30-autocad-imperial-metric-conversions/</guid>
+      <description>Yesterday a friend asked me how to convert an AutoCAD drawing from metric to imperial. He needed to dimension in inches and draw imperial sized objects inside a metric drawing. Turns out the Autocad help is not so helpful on this specific subject.
+Units &amp;amp; Units: So here&amp;rsquo;s the deal, AutoCAD “thinks” in a drawing units. These drawing units don’t have a real world size. The only relation to real world size they have is the name that we assign to them in the units dialogue box.</description>
+    </item>
+    
+    <item>
+      <title>West Virginian Life</title>
+      <link>https://scenic-shop.com/mark6/posts/2008/2008-07-03-west-virginian-life/</link>
+      <pubDate>Thu, 03 Jul 2008 00:00:00 +0000</pubDate>
+      
+      <guid>https://scenic-shop.com/mark6/posts/2008/2008-07-03-west-virginian-life/</guid>
+      <description>Go go West Virginia. I’m back at the Contemporary American Theatre Festival in Shepherdstown, WV for the summer. Its amazing how much life is put on hold during summer stock. Unfortunately there are not any outlandish scenic requirements. Though the schedule is outlandish in its own right. That’s the summer stock life for ya’. The shows are fairly straightforward, though we are using a ridiculous amount of blood this summer, which should make changeovers bundles o’ fun.</description>
+    </item>
+    
+    <item>
+      <title>Brighter Flicker Candles</title>
+      <link>https://scenic-shop.com/mark6/posts/2008/2008-07-01-brighter-flicker-candles/</link>
+      <pubDate>Tue, 01 Jul 2008 00:00:00 +0000</pubDate>
+      
+      <guid>https://scenic-shop.com/mark6/posts/2008/2008-07-01-brighter-flicker-candles/</guid>
+      <description>Is anyone satisfied with the way that flicker candles look on stage? If you didn&amp;rsquo;t raise your hand, then read on. If you did raise your hand, well, keep reading anyways. On the surface, this article is about designing &amp;amp; building a bright, adjustable flicker candle. I&amp;rsquo;ll let you in on a secret: the candle itself is only a foil. Dig deeper and you will find the untapped potential (in most theatres) of the hardware at the heart of the effect: an open source microprocessor.</description>
+    </item>
+    
+    <item>
+      <title>Around the World in 80 Days - Sound Design</title>
+      <link>https://scenic-shop.com/mark6/posts/2008/2008-05-21-around-the-world-in-80-days-sound-design/</link>
+      <pubDate>Wed, 21 May 2008 00:00:00 +0000</pubDate>
+      
+      <guid>https://scenic-shop.com/mark6/posts/2008/2008-05-21-around-the-world-in-80-days-sound-design/</guid>
+      <description>Recently designed a radio play for the Long Wharf Theatre Radio Auction. Unfortunately air time became limited, so we could only broadcast one six minute scene. Good new everybody! The play is available for download here. Downloads as zipped MP3s.80Days.zip
+The Long Wharf Radio Theatre Presents: Around the World in 80 Days. Adapted from the Orson Wells&#39; Mercury Theatre Radio play (based on Jules Verne&amp;rsquo;s book by the same title.)</description>
+    </item>
+    
+    <item>
+      <title>New Site</title>
+      <link>https://scenic-shop.com/mark6/posts/2008/2008-05-19-new-site/</link>
+      <pubDate>Mon, 19 May 2008 00:00:00 +0000</pubDate>
+      
+      <guid>https://scenic-shop.com/mark6/posts/2008/2008-05-19-new-site/</guid>
+      <description>You may remember the Theatre Mysteries Project. Oh, that site died a slow death of neglect. The coup de grâce came when I decided not to renew the domain registration. So I packed up, moved across town, and set up shop somewhere else. I feel liberated from the constant self-nagging to keep the old site updated with new bits. The TMP was for other people, this one is for me. I have decided to narrow my focus and write articles documenting projects that I am currently or have previously worked on.</description>
+    </item>
+    
+    <item>
+      <title>About</title>
+      <link>https://scenic-shop.com/mark6/about/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://scenic-shop.com/mark6/about/</guid>
+      <description>Scenic-Shop was started in the early 2000&amp;rsquo;s as a way to collect theatre technical design solutions. It has existed in various forms over the years.
+ Document interesting, helpful, or innovating solutions for theatrical technical challenges Document programming code snippets and techniquies that would be of use for theatre technical designers &amp;amp; directors. Code inclues but is not limited to: Excel Formulas, VBA, VB.net, AutoLISP, C#. Be a reference for technical information Experiment with various methods to record and present any of the above.</description>
+    </item>
+    
+    <item>
+      <title>Calculators</title>
+      <link>https://scenic-shop.com/mark6/projects/calculators/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://scenic-shop.com/mark6/projects/calculators/</guid>
+      <description>These are a collection of web-based javascript calculators that are mobile friendly. An abbreviated list of the calculators are as follows:
+ Unit Conversions Hydrulic Piston Force and Speed Winch Force and Speed Winch Drums Motion &amp;amp; Dynamics ANSI Chain Values, Ratings, Sprocket Distance Bearing PV Shock Load Forces Etc&amp;hellip;  How to Use You can find the web-based calculators here: Calculators
+The source is on github in the following repo: Calculators Repo</description>
+    </item>
+    
+    <item>
+      <title>Collector</title>
+      <link>https://scenic-shop.com/mark6/projects/collector/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://scenic-shop.com/mark6/projects/collector/</guid>
+      <description>Designed for use with Autodesk&amp;rsquo;s Inventor iLogic scripts and Autocad LISP files, Collector is intended to allow use of external IDEs such as Visual Studio and support class or module-per-file coding organization.
+This is handy for autolisp routines as well, as they can be stored in seperate files but combined into a single lisp file.
+It is also useful when developing an Inventor Add-In and you want to perform testing in the iLogic environment.</description>
+    </item>
+    
+    <item>
+      <title>InventorShims</title>
+      <link>https://scenic-shop.com/mark6/projects/inventorshims/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://scenic-shop.com/mark6/projects/inventorshims/</guid>
+      <description>InventorShims is a collection of vb.net code to extend and add common API methods and classes to Autodesk Inventor&amp;rsquo;s existing API.
+From simplified methods to interact with iproperties and parameters, to generic methods to return the pertinent document object from a supplied Inventor object type, InventorShims aims to create a library of frequently used methods and classes. These are organized by area of concern, into seperate files; load only what you need.</description>
+    </item>
+    
+  </channel>
+</rss>

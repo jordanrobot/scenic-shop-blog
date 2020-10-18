@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en-us">
+    <head>
+        
+
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Roll Bender Forces Chart</title>
+        
+        <style>
+
+    html body {
+        font-family: 'Roboto', sans-serif;
+        background-color: white;
+    }
+
+    :root {
+        --accent: darkcyan;
+        --border-width:  5px ;
+    }
+
+</style>
+
+
+<link rel="stylesheet" href="https://scenic-shop.com/mark6/css/main.css">
+
+
+
+
+
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto">
+
+
+ <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.2.1/styles/default.min.css"> 
+
+
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+ 
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js"></script>
+    
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/lisp.min.js"></script>
+    
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/bash.min.js"></script>
+    
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/dos.min.js"></script>
+    
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/csharp.min.js"></script>
+    
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/vbnet.min.js"></script>
+    
+    <script>hljs.initHighlightingOnLoad();</script>
+
+
+
+
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+
+<script>$(document).on('click', function() { $('.collapse').collapse('hide'); })</script>
+ <meta name="generator" content="Hugo 0.76.0" />
+        
+
+        
+
+        
+            <script type="text/javascript" async src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+        
+
+        
+
+    </head>
+
+    <body>
+        
+
+        <nav class="navbar navbar-default navbar-fixed-top">
+            <div class="container">
+                <div class="navbar-header">
+                    <a class="navbar-brand visible-xs" href="#">Roll Bender Forces Chart</a>
+                    <button class="navbar-toggle" data-target=".navbar-collapse" data-toggle="collapse">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                </div>
+                <div class="collapse navbar-collapse">
+                    
+                        <ul class="nav navbar-nav">
+                            
+                                <li><a href="/mark6/">home</a></li>
+                            
+                                <li><a href="/mark6/posts/">posts</a></li>
+                            
+                                <li><a href="/mark6/projects/">projects</a></li>
+                            
+                                <li><a href="https://www.scenic-shop.com/Calculators">calculators</a></li>
+                            
+                        </ul>
+                    
+                    
+                        <ul class="nav navbar-nav navbar-right">
+                            
+                                <li class="navbar-icon"><a href="https://github.com/jordanrobot/"><i class="fa fa-github"></i></a></li>
+                            
+                                <li class="navbar-icon"><a href="https://www.linkedin.com/in/username/"><i class="fa fa-linkedin"></i></a></li>
+                            
+                        </ul>
+                    
+                </div>
+            </div>
+        </nav>
+
+
+<main>
+
+    <div>
+        <h2>Roll Bender Forces Chart</h2>
+        <h5></h5>
+        
+<a href="https://scenic-shop.com/mark6/tags/math"><kbd class="item-tag">Math</kbd></a>
+
+
+    </div>
+
+    <div align="start" class="content"><p>How much force does it take to bend 3”x16ga box tube to a 5’ radius in one pass? What’s the largest steel shape you can jam in a typical scene shop-built manual roll bender without cracking a roller? A week ago I didn’t know the answer to either one of these questions, now I’ve got a pretty good idea.</p>
+<p>We’re talking about making a roll bender at work, and are waffling over whether to build a manual or motorized bender. I realized that we didn’t really have a handle on the forces involved in bending various steels to various radii; these numbers are instrumental when making this decision. (Not to mention during the design process.) Earlier this week I sat down and created an excel file to shed some light on the situation. Figured I might as well share it with my peoples.</p>
+<p>Snag the files here: <a href="http://scenic-shop.com/files/excel/roller_forces.xls">XLS</a> or <a href="http://scenic-shop.com/files/excel/roller_forces.pdf">PDF</a></p>
+<p>The majority of the worksheet calculates for:</p>
+<ol>
+<li>The force required to bend a variety of steel shapes to various radii in one pass (à la motorized bender).</li>
+<li>Adjustments for three different roller/die distances: 12”, 16” &amp; 20” apart.</li>
+</ol>
+<p>The manual pass sections are intended to show how much force would be needed when making the first pass in a manual roll bender. It calculates:</p>
+<ol>
+<li>The force required to reach the yield point of each steel shape.</li>
+<li>The resultant deflection and radius achieved in the first pass.</li>
+<li>The above calculations adjusted for three roller/die distances (12”, 16” &amp; 20”).</li>
+</ol>
+<p><strong>Big effin disclaimer!</strong> Lets be honest folks, I’m not an engineer. Confidentially (just between you and me) I am confident that the calculations are fairly accurate. But under no circumstances will I claim that they are 100% accurate. The reason is this: the last thing I need is a lawsuit because someone too lazy to verify the math took it in the eye from a flying bit of steel. Don’t you dare cut corners.</p>
+<p>This worksheet is only intended to give a general idea of the numbers involved when bending steel. It cannot be counted on to give precise data concerning specing and designing of a specific machine. There are no allowances for the inherent springy-ness of mild steel, dodgy steel quality and varying manufacturing tolerances.</p>
+<p>Bending steel is indeed a fudgy art. But now you’ve got some numbers.</p>
+</div>
+
+</main>
+
+        <footer>
+            <p class="copyright text-muted">© All rights reserved. Powered by <a href="https://gohugo.io">Hugo</a> and <a href="https://github.com/calintat/minimal">Minimal</a>.</p>
+        </footer>
+
+        
+
+        
+    </body>
+
+</html>
+

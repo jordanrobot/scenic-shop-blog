@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tools on Scenic-Shop</title>
+    <link>https://scenic-shop.com/mark6/tags/tools/</link>
+    <description>Recent content in Tools on Scenic-Shop</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 01 Feb 2014 00:00:00 +0000</lastBuildDate><atom:link href="https://scenic-shop.com/mark6/tags/tools/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Parallel Key Calculator Added</title>
+      <link>https://scenic-shop.com/mark6/posts/2014/2014-02-01-parallel-key-calculator-added/</link>
+      <pubDate>Sat, 01 Feb 2014 00:00:00 +0000</pubDate>
+      
+      <guid>https://scenic-shop.com/mark6/posts/2014/2014-02-01-parallel-key-calculator-added/</guid>
+      <description>Added here: Parallel Keys.
+Check out the formula page to see what it calculates for.</description>
+    </item>
+    
+    <item>
+      <title>More calculator updates...</title>
+      <link>https://scenic-shop.com/mark6/posts/2014/2014-01-31-more-calculator-updates/</link>
+      <pubDate>Fri, 31 Jan 2014 00:00:00 +0000</pubDate>
+      
+      <guid>https://scenic-shop.com/mark6/posts/2014/2014-01-31-more-calculator-updates/</guid>
+      <description>New calculators:
+ Motion calculator (with forces and estimated power calcs) Plain Bearing: PV Yoyo Winch calcs Pulley Tread and Bore Pressure D:d Ratio (with strength reduction calc)  Other notable changes:
+ The Unit Conversion calculator now include electrical units Added to the Constants page. Added formula pages for each calculator (example) Added diagrams to those that need them Updated the jquery mobile library to 1.4.0. Added a revision log Most multi-page calculators were re-written to provide a simpler interface.</description>
+    </item>
+    
+    <item>
+      <title>Calculator Updates</title>
+      <link>https://scenic-shop.com/mark6/posts/2013/2013-11-20-calculator-updates/</link>
+      <pubDate>Wed, 20 Nov 2013 00:00:00 +0000</pubDate>
+      
+      <guid>https://scenic-shop.com/mark6/posts/2013/2013-11-20-calculator-updates/</guid>
+      <description>Some Calculator updates:
+I&amp;rsquo;ve finished an ANSI Chain Calculator; you&amp;rsquo;ll find it in the main index. It calculates the following:
+ Physical properties of standard ANSI chains (multi-strands too), Pitch length to inch length converter Estimated chain elongation calculation Estimated chain weight per length of selected chain Center-to-center calculators for a two-sprocket system, calculating by sprocket centers or by chain length Sprocket properties for the selected chain size, including pitch diameter, outside diameter, and tooth width.</description>
+    </item>
+    
+    <item>
+      <title>Update, and calculators</title>
+      <link>https://scenic-shop.com/mark6/posts/2013/2013-05-05-update-and-calculators/</link>
+      <pubDate>Sun, 05 May 2013 00:00:00 +0000</pubDate>
+      
+      <guid>https://scenic-shop.com/mark6/posts/2013/2013-05-05-update-and-calculators/</guid>
+      <description>Yes, I&amp;rsquo;m still alive. No, I haven&amp;rsquo;t posted in over a year. Yes, I&amp;rsquo;m still working for a large live entertainment company.
+A quick update, the earlier calculator scripts that I mentioned in the last few posts are no longer working. I&amp;rsquo;ve instead been working on a unified collection of calculators using the jquery mobile framework; the aim is to be phone and tablet friendly. Catch it in the links above, or here.</description>
+    </item>
+    
+    <item>
+      <title>Frustum Calculator</title>
+      <link>https://scenic-shop.com/mark6/posts/2011/2011-11-20-frustum-calculator/</link>
+      <pubDate>Sun, 20 Nov 2011 00:00:00 +0000</pubDate>
+      
+      <guid>https://scenic-shop.com/mark6/posts/2011/2011-11-20-frustum-calculator/</guid>
+      <description>I just updated my frustum calculator to two javascript versions. One will calculate the flattened frustum from the radii, the other uses the circumferences of the frustum shape.</description>
+    </item>
+    
+    <item>
+      <title>Fluid Power Calculator</title>
+      <link>https://scenic-shop.com/mark6/posts/2011/2011-11-02-fluid-power-calculator/</link>
+      <pubDate>Wed, 02 Nov 2011 00:00:00 +0000</pubDate>
+      
+      <guid>https://scenic-shop.com/mark6/posts/2011/2011-11-02-fluid-power-calculator/</guid>
+      <description>I&amp;rsquo;ve been playing around with learning javascript recently. I&amp;rsquo;ve thrown together a fluid power calculator as a &amp;ldquo;hello world&amp;rdquo;. You can find it here: Fluid Power Calculator It&amp;rsquo;s not pretty, but it works pretty well. (See what I did there?) You can download the page and run it locally if you want.
+My ultimate goal is to transfer all of my theatre-related excel calculators to javascript powered web pages, so I can access them wherever I happen to be.</description>
+    </item>
+    
+    <item>
+      <title>Flattening Cones</title>
+      <link>https://scenic-shop.com/mark6/posts/2009/2009-06-29-flattening-cones/</link>
+      <pubDate>Mon, 29 Jun 2009 00:00:00 +0000</pubDate>
+      
+      <guid>https://scenic-shop.com/mark6/posts/2009/2009-06-29-flattening-cones/</guid>
+      <description>Update: I just updated this frustum calculator with javascript versions that will run from the browser. One will calculate the flattened frustum from the radii, the other uses the circumferences of the frustum shape.
+Have you ever wanted to lay out the frustum of a cone on a flat surface?” “A what?” “A frustum, the part of a cone that is left when you lop off the top.” “Oh, yeah. If I had a nickel&amp;hellip; sadly, I’m still poor.</description>
+    </item>
+    
+  </channel>
+</rss>
