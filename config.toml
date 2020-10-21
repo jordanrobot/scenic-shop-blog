@@ -13,6 +13,7 @@ theme = "minimal"
     showBorder = true
     backgroundColor = "white"
     font = "Roboto" # should match the name on Google Fonts!
+    contentTextAlign = "left"
     highlight = true
     highlightStyle = "default"
     highlightLanguages = ["lisp", "bash", "dos", "csharp", "vbnet"]
