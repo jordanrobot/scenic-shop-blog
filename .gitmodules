@@ -7,3 +7,7 @@
 [submodule "themes/papermod"]
 	path = themes/papermod
 	url = https://github.com/adityatelange/hugo-PaperMod.git
+[submodule "themes/bootstrap4blog"]
+	path = themes/bootstrap4blog
+	url = https://github.com/alanorth/hugo-theme-bootstrap4-blog.git
+
