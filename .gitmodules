@@ -1,6 +1,9 @@
 [submodule "themes/minimal"]
 	path = themes/minimal
 	url = https://github.com/jordanrobot/minimal.git
+[submodule "themes/anatole"]
+	path = themes/anatole
+	url = https://github.com/lxndrblz/anatole.git
 [submodule "themes/papermod"]
 	path = themes/papermod
 	url = https://github.com/adityatelange/hugo-PaperMod.git
