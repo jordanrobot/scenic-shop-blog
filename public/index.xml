@@ -8,14 +8,12 @@
     <language>en-us</language>
     <lastBuildDate>Sun, 18 Oct 2020 00:40:53 -0400</lastBuildDate><atom:link href="https://scenic-shop.com/mark6/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Git remote fix for &#39;receive.denycurrentbranch&#39; in ./config</title>
+      <title>New Hugo Web Site.</title>
       <link>https://scenic-shop.com/mark6/posts/2020/git-remote-fix/</link>
       <pubDate>Sun, 18 Oct 2020 00:40:53 -0400</pubDate>
       
       <guid>https://scenic-shop.com/mark6/posts/2020/git-remote-fix/</guid>
-      <description>This is a just a quick reminder to myself about a cpanel git issue that I&amp;rsquo;ve found a fix for.
-When accessing a git remote from a webphosting provider thru ssh, you may get the error&amp;hellip; &amp;ldquo;fatal: bad config value for &amp;lsquo;receive.denycurrentbranch&amp;rsquo; in ./config&amp;rdquo;
-The fix for it was simple after you realize what&amp;rsquo;s going on. It turns out that there are sometimes more than one version of git installed in web-hosting providers.</description>
+      <description>All about this site redesign&amp;hellip;</description>
     </item>
     
     <item>
@@ -24,8 +22,7 @@ The fix for it was simple after you realize what&amp;rsquo;s going on. It turns 
       <pubDate>Wed, 07 Oct 2020 00:00:00 +0000</pubDate>
       
       <guid>https://scenic-shop.com/mark6/posts/2020/2020-10-07-autolisp-layer-snippets/</guid>
-      <description>These are some of my frequently used AutoLISP snippets for layer management. I&amp;rsquo;ve got a heap of these in a lisp file that I autoload into autocad at startup. You can find the entire file here: layer-shortcuts.lsp.
-If you look through that file, you&amp;rsquo;ll see that I have a common set of layers (for 2D and general work) that I include in every drawing file. The AutoLisp commands help to speed up my drafting with these common layers.</description>
+      <description>These are some of my frequently used AutoLISP snippets for layer management.</description>
     </item>
     
     <item>

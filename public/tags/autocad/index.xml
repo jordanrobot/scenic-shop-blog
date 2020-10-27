@@ -13,8 +13,7 @@
       <pubDate>Wed, 07 Oct 2020 00:00:00 +0000</pubDate>
       
       <guid>https://scenic-shop.com/mark6/posts/2020/2020-10-07-autolisp-layer-snippets/</guid>
-      <description>These are some of my frequently used AutoLISP snippets for layer management. I&amp;rsquo;ve got a heap of these in a lisp file that I autoload into autocad at startup. You can find the entire file here: layer-shortcuts.lsp.
-If you look through that file, you&amp;rsquo;ll see that I have a common set of layers (for 2D and general work) that I include in every drawing file. The AutoLisp commands help to speed up my drafting with these common layers.</description>
+      <description>These are some of my frequently used AutoLISP snippets for layer management.</description>
     </item>
     
     <item>
