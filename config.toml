@@ -14,6 +14,7 @@ theme = "minimal"
     backgroundColor = "white"
     font = "Roboto" # should match the name on Google Fonts!
     contentTextAlign = "left"
+    postListCount = 8
     highlight = true
     highlightStyle = "default"
     highlightLanguages = ["lisp", "bash", "dos", "csharp", "vbnet"]

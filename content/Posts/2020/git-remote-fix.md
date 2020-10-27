@@ -2,6 +2,7 @@
 title: "New Hugo Web Site."
 date: 2020-10-18T00:40:53-04:00
 draft: false
+summary: All about this site redesign...
 ---
 
 I've recently redesigned this website & blog using a static site generator, Hugo.  Hugo is a command-line utility written in the Go programming lanagauge that will allow you to generate a static web-site (html and css files) from markdown text files and some pre-defined templates/themes.

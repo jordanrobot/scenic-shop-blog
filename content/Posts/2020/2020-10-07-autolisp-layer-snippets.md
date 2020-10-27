@@ -2,6 +2,7 @@
 title: "AutoLISP Layer Snippets"
 date: "2020-10-07"
 tags: ["AutoCAD", "Code"]
+summary: These are some of my frequently used AutoLISP snippets for layer management.
 ---
 
 These are some of my frequently used AutoLISP snippets for layer management.  I've got a heap of these in a lisp file that I autoload into autocad at startup.  You can find the entire file here: [layer-shortcuts.lsp](https://github.com/jordanrobot/AutocadUtilities/blob/master/layer-shortcuts.lsp).
