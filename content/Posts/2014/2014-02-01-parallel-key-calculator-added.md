@@ -2,6 +2,7 @@
 title: "Parallel Key Calculator Added"
 date: "2014-02-01"
 tags: ["Tools"]
+summary: 
 ---
 
 Added here: [Parallel Keys](https://www.scenic-shop.com/Calculators/keys.html).

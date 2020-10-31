@@ -1,6 +1,7 @@
 ---
 title: "Bevy of CAD Blogs"
 date: "2013-11-07"
+summary: A list of CAD-related blogs
 ---
 
 While I do work primarily in the entertainment industry, I like to keep an eye on the larger world of CAD news.  Here's the current list of CAD related blogs I keep up with...

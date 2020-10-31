@@ -2,6 +2,7 @@
 title: "Twist Lisp"
 date: "2011-02-08"
 tags: ["AutoCAD", "Code"]
+summary: An AutoCAD utility to manipulate the rotation of the current view.
 ---
 
 Did you know you can precisely rotate the current view of modelspace?  This is a killer way to simplify drafting and dimensioning objects on an angle, especially if you have a way to align the current view to an object.  (And we do, keep reading.)

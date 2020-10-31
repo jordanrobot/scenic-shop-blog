@@ -2,6 +2,7 @@
 title: "Calculator Updates"
 date: "2013-11-20"
 tags: ["Tools"]
+summary:
 ---
 
 Some [Calculator](https://www.scenic-shop.com/Calculators/) updates:
