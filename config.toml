@@ -35,9 +35,14 @@ theme = "minimal"
     weight = 2
 
 [[menu.main]]
-    url = "https://www.scenic-shop.com/Calculators"
-    name = "calculators"
+    url = "https://www.scenic-shop.com/mdj"
+    name = "portfolio"
     weight = 4
+
+#[[menu.main]]
+#    url = "https://www.scenic-shop.com/Calculators"
+#    name = "calculators"
+#    weight = 4
 
 # Social icons to be shown on the right-hand side of the navigation bar.
 # The "name" field should match the name of the icon in Font Awesome.
