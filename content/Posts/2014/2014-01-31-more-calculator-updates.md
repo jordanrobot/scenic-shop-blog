@@ -2,7 +2,7 @@
 title: "More calculator updates..."
 date: "2014-01-31"
 tags: ["Tools"]
-summary: 
+summary: Guess what?  I've added some new calculators and updated others.
 ---
 
 New calculators:

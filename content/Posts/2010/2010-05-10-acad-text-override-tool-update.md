@@ -2,6 +2,7 @@
 title: "aCAD: Text Override Tool Update"
 date: "2010-05-10"
 tags: ["AutoCAD", "Code"]
+summary: ...
 ---
 
 Download [Text Override Tool v2.7](https://www.scenic-shop.com/files/cad/lisp/to.lsp) - while in AutoCAD type "TO" to run this routine.

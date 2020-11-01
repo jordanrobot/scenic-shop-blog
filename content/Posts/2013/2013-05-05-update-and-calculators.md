@@ -2,7 +2,7 @@
 title: "Update, and calculators"
 date: "2013-05-05"
 tags: ["Tools"]
-summary: 
+summary: Small update and an announcement about a new set of web-based theatre calculators I've started working on.
 ---
 
 Yes, I'm still alive.  No, I haven't posted in over a year.  Yes, I'm still working for a large live entertainment company.

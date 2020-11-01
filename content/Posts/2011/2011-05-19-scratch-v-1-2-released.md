@@ -2,7 +2,7 @@
 title: "Scratch! v. 1.2 released"
 date: "2011-05-19"
 tags: ["AutoCAD", "Code"]
-summary: The scratchpad layer utility for AutoCAD has been updated.
+summary: The scratchpad layer utility for AutoCAD has been updated to 1.2
 ---
 
 Scratch - the scratchpad layer utility for AutoCAD - has been updated to version 1.2!

@@ -2,7 +2,7 @@
 title: "Calculator Updates"
 date: "2013-11-20"
 tags: ["Tools"]
-summary:
+summary: I've added some calculators and improved how the diagrams work.
 ---
 
 Some [Calculator](https://www.scenic-shop.com/Calculators/) updates:

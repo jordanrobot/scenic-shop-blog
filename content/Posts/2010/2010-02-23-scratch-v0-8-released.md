@@ -2,6 +2,7 @@
 title: "Scratch! v0.8 Released."
 date: "2010-02-23"
 tags: ["AutoCAD", "Code"]
+summary: ...
 ---
 
 Scratch! has been updated to version 0.8.

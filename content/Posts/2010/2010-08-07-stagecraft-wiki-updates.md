@@ -1,6 +1,7 @@
 ---
 title: "Stagecraft Wiki Updates"
 date: "2010-08-07"
+summary: ...
 ---
 
 Good news, I recently added some anti-spam measures to the [Stagecraft Wiki](http://wiki.scenic-shop.com), and as a result have re-enabled anonymous editing.  This means you don't need to login to share your brilliant ideas!  (Hint, hint)

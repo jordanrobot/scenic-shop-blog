@@ -2,6 +2,7 @@
 title: "Pianos & Steel. CAD Block Giveaway!"
 date: "2010-12-21"
 tags: ["AutoCAD", "Blocks"]
+summary: A collection of cad blocks (for free!)
 ---
 
 I just realized I never posted those grand piano cad blocks I promised months ago.  [You can snag them here](https://scenic-shop.com/files/cad/Blocks/Pianos.dwg) (version 2k).  Egg. face. mine.
