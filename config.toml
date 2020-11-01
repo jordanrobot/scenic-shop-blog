@@ -11,13 +11,13 @@ theme = "minimal"
     githubUsername = "jordanrobot"
     accent = "darkcyan"
     showBorder = true
-    backgroundColor = "white"
+    backgroundColor = "#F1F1F1"
     font = "Roboto" # should match the name on Google Fonts!
     contentTextAlign = "left"
     postListCount = 8
     highlight = true
     highlightStyle = "default"
-    highlightLanguages = ["lisp", "bash", "dos", "csharp", "vbnet"]
+    highlightLanguages = ["lisp", "bash", "dos", "csharp", "vbnet", "yaml"]
 
 [[menu.main]]
     url = "/"
@@ -25,19 +25,24 @@ theme = "minimal"
     weight = 1
 
 [[menu.main]]
+    url = "/posts/"
+    name = "blog"
+    weight = 2
+
+[[menu.main]]
     url = "/projects/"
     name = "projects"
     weight = 3
 
 [[menu.main]]
-    url = "/posts/"
-    name = "posts"
-    weight = 2
+    url = "https://www.scenic-shop.com/resume/"
+    name = "resume"
+    weight = 4
 
 [[menu.main]]
     url = "https://www.scenic-shop.com/mdj"
     name = "portfolio"
-    weight = 4
+    weight = 5
 
 #[[menu.main]]
 #    url = "https://www.scenic-shop.com/Calculators"
