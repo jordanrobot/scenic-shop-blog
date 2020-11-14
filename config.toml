@@ -14,7 +14,7 @@ theme = "minimal"
     backgroundColor = "#F1F1F1"
     font = "Roboto" # should match the name on Google Fonts!
     contentTextAlign = "left"
-    postListCount = 8
+    postListCount = 6
     highlight = true
     highlightStyle = "default"
     highlightLanguages = ["lisp", "bash", "dos", "csharp", "vbnet", "yaml"]
@@ -26,7 +26,7 @@ theme = "minimal"
 
 [[menu.main]]
     url = "/posts/"
-    name = "blog"
+    name = "posts"
     weight = 2
 
 [[menu.main]]
@@ -41,7 +41,7 @@ theme = "minimal"
 
 [[menu.main]]
     url = "https://www.scenic-shop.com/mdj"
-    name = "portfolio"
+    name = "(legacy) portfolio"
     weight = 5
 
 #[[menu.main]]
