@@ -1,9 +1,6 @@
 [submodule "themes/minimal"]
 	path = themes/minimal
 	url = https://github.com/jordanrobot/minimal.git
-[submodule "themes/hermit"]
-	path = themes/hermit
-	url = https://github.com/Track3/hermit.git
 [submodule "themes/hugo-theme-meme"]
 	path = themes/hugo-theme-meme
 	url = https://github.com/reuixiy/hugo-theme-meme.git
