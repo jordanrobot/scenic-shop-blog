@@ -1,5 +1,0 @@
----
-deployment:
-  tasks:
-    - rsync -a --delete public/ ~/public_html/mark6
-    
