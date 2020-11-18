@@ -2,6 +2,10 @@ baseURL = "https://scenic-shop.com/mark6minimal/"
 languageCode = "en-us"
 title = "Scenic-Shop"
 theme = "minimal"
+
+[permalinks]
+    "post" = "/:year/:month/:title"
+
 #disqusShortname = "username" # delete this to disable disqus comments
 #googleAnalytics = ""
 
