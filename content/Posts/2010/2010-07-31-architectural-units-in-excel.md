@@ -13,7 +13,7 @@ I recently had to calculate the total area of our soft goods inventory.  With o
 
 Convert a 13'-10" style format into inches.  (Replace instances of C3 with the cell containing the measurement to convert.)
 
-    =(LEFT(C3,(SEARCH("'",C3,1)-1))*12)+(SUBSTITUTE(SUBSTITUTE((RIGHT(C3,((SEARCH("-",C3,1)) -1))),"-",""),"""","")))
+    =(LEFT(C3,(SEARCH("'",C3,1)-1))*12)+(SUBSTITUTE(SUBSTITUTE((RIGHT(C3,LEN(C3)-((SEARCH("-",C3,1))))),"-",""),"""",""))
 
 ### Formula #2
 
