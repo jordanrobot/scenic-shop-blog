@@ -1,6 +1,6 @@
 ---
 title: "Mathjax test"
-date: "2014-02-20"
+date: "2014-02-20T00:00:00-00:00"
 tags: ["Math"]
 summary: A quick test of a new mathjax plugin, also a right-angle trig cheat image.
 ---

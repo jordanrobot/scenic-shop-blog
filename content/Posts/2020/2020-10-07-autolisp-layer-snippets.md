@@ -1,6 +1,6 @@
 ---
 title: "AutoLISP Layer Snippets"
-date: "2020-10-07"
+date: "2020-10-07T00:00:00-00:00"
 tags: ["AutoCAD", "Code"]
 #summary: These are some of my frequently used AutoLISP snippets for layer management.
 ---

@@ -1,6 +1,6 @@
 ---
 title: "Parallel Key Calculator Added"
-date: "2014-02-01"
+date: "2014-02-01T00:00:00-00:00"
 tags: ["Tools"]
 summary: Added a calculator.
 ---

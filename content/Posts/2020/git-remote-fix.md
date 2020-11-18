@@ -1,6 +1,6 @@
 ---
 title: "A New Site Design Using Hugo"
-date: 2020-10-18T00:40:53-04:00
+date: "2020-10-18T00:40:53-04:00"
 draft: false
 #summary: All about this blog redesign...
 ---
