@@ -23,10 +23,10 @@ theme = "minimal"
     highlightStyle = "default"
     highlightLanguages = ["lisp", "bash", "dos", "csharp", "vbnet", "yaml"]
 
-[[menu.main]]
-    url = "/"
-    name = "home"
-    weight = 1
+#[[menu.main]]
+#    url = "/"
+#    name = "home"
+#    weight = 1
 
 [[menu.main]]
     url = "/posts/"
@@ -38,14 +38,14 @@ theme = "minimal"
     name = "projects"
     weight = 3
 
-[[menu.main]]
-    url = "https://www.scenic-shop.com/resume/"
-    name = "resume"
-    weight = 4
+#[[menu.main]]
+#    url = "https://www.scenic-shop.com/resume/"
+#    name = "resume"
+#    weight = 4
 
 [[menu.main]]
     url = "https://www.scenic-shop.com/mdj"
-    name = "(legacy) portfolio"
+    name = "portfolio"
     weight = 5
 
 #[[menu.main]]
