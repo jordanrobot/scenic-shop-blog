@@ -2,7 +2,7 @@ echo off
 
 SET /p user="Enter User Name:"
 SET host=scenic-shop.com
-SET publicDest=~/public_html/mark6minimal/
+SET publicDest=~/public_html/blog/
 
 hugo
 

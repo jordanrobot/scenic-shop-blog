@@ -1,4 +1,4 @@
-baseURL = "https://scenic-shop.com/mark6minimal/"
+baseURL = "https://scenic-shop.com/blog/"
 languageCode = "en-us"
 title = "Scenic-Shop"
 theme = "minimal"
@@ -11,7 +11,7 @@ theme = "minimal"
 
 [params]
     author = "Matthew D. Jordan"
-    description = "Technical Theatre Musings and Articles"
+    description = "Theatre | Code"
     githubUsername = "jordanrobot"
     accent = "darkcyan"
     showBorder = true
@@ -48,10 +48,10 @@ theme = "minimal"
     name = "portfolio"
     weight = 5
 
-#[[menu.main]]
-#    url = "https://www.scenic-shop.com/Calculators"
-#    name = "calculators"
-#    weight = 4
+[[menu.main]]
+    url = "https://www.scenic-shop.com/Calculators"
+    name = "calculators"
+    weight = 4
 
 # Social icons to be shown on the right-hand side of the navigation bar.
 # The "name" field should match the name of the icon in Font Awesome.
@@ -73,7 +73,7 @@ theme = "minimal"
 #    weight = 3
 
 [[menu.icon]]
-    url = "https://www.linkedin.com/in/username/"
+    url = "https://www.linkedin.com/in/jordanscenic/"
     name = "linkedin"
     weight = 4
 
