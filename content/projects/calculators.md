@@ -2,9 +2,10 @@
 title: Calculators
 description: Mobile-device friendly calculators for theatre.
 #repo: "calculators"
-tags: ["Code", "Javascript", "JQuery"]
+tags: ["Mechanical", "Javascript"]
 #weight: 0
 draft: false
+summary: This is a collection of mobile-friendly javascript calculators for mechanical design.
 ---
 
 These are a collection of web-based javascript calculators that are mobile friendly.  An abbreviated list of the calculators are as follows:

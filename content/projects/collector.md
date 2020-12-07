@@ -5,6 +5,7 @@ description: A powershell script to merge source code files for Autocad and Inve
 tags: ["Code", "Powershell", "C#"]
 #weight: 0
 draft: false
+summary: This is a Powershell tool that will collect code files within a directory and combine them into a single file.  Used for collecting iLogic and AutoLISP routines.
 ---
 
 

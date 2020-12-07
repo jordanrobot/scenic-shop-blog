@@ -5,6 +5,8 @@ description: A collection of extension APIs for Autodesk Inventor.
 tags: ["Code", "Inventor", "VB.net", "C#"]
 #weight: 0
 draft: false
+summary: InventorShims is an unofficial collection of extension APIs for Autodesk Inventor. 
+
 ---
 
 InventorShims is a collection of vb.net code to extend and add common API methods and classes to Autodesk Inventor's existing API.
