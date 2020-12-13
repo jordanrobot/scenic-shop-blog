@@ -26,4 +26,4 @@ You can find the web-based calculators here: [Calculators](https://www.scenic-sh
 
 The source is on github in the following repo: [Calculators Repo](https://github.com/jordanrobot/Calculators)
 
-Documentation for the calculators formulae and assumptions are here: [Calculators Formulae](https://www.scenic-shop.com/Calculators/docs/mdwiki.html#!index.md)
+Documentation for the calculators formulae and assumptions are here: [Calculators Formulae](https://scenic-shop.com/calculators-formulae/)
