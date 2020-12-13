@@ -2,53 +2,73 @@
 title: Collector
 description: A powershell script to merge source code files for Autocad and Inventor.
 #repo: "Collector"
-tags: ["Code", "Powershell", "C#"]
+tags: ["Code", "Powershell"]
 #weight: 0
 draft: false
-summary: This is a Powershell tool that will collect code files within a directory and combine them into a single file.  Used for collecting iLogic and AutoLISP routines.
+summary: This powershell script will recursively collect text files within a single directory and insert them into a single file. Used for collecting iLogic and AutoLISP routines.
 ---
-
 
 
 [![Logo](https://raw.githubusercontent.com/jordanrobot/Collector/master/Images/Collector128.png)](https://github.com/jordanrobot/Collector)
 
+This powershell script will recursively collect text files within a single directory and insert them into a single file. The trick is that you can specify which files to collect with a special tag in the first line of that document. Three tag variations allow you to perform different operations.
 
-Designed for use with Autodesk's Inventor iLogic scripts and Autocad LISP files, Collector is intended to allow use of external IDEs such as Visual Studio and support class or module-per-file coding organization.
+Collector is intended to allow you to organize your code in class-per-file or module-per-file file structures organization. It supports commenting out select lines during collection.
 
-This is handy for autolisp routines as well, as they can be stored in seperate files but combined into a single lisp file.
-
-It is also useful when developing an Inventor Add-In and you want to perform testing in the iLogic environment.  The script will collect any source code files within a single directory that contains the proper tag in the first line and insert them into a single iLogic file.
+This tool was originally developed for use developing complicated Inventor iLogic routines and add-ins which may be tested tested in Inventor's iLogic environment. It also works well for collecting Autocad Lisp routines into a single file. Though this tool maybe used for just about any source code file.
 
 ## Source Code
 
 You can find the project repo on github here: [Collector](https://github.com/jordanrobot/Collector)
 
-Find the powershell script itself here: [Collector.ps1](https://raw.githubusercontent.com/jordanrobot/Collector/master/src/CollectorPS/Collector.ps1)
+Find the powershell script itself here: [Collector.ps1](https://raw.githubusercontent.com/jordanrobot/Collector/master/Collector.ps1)
 
 
-## An Example...
+## A Simple Use Case...
 
-If I'm developing a complex ilogic routine, let's say a BOM export routine, I'll probably choose to place my classes and interfaces in seperate files.  This follows .net best practices, and allows me to use Visual Studio (or another IDE) to manage my codebase.  This provides intellisense, better project navigation, git integration, as well as other goodies.  Collector lets me merge all of the desired files into a single ilogic routine that I can deploy to my CAD users.  This also allows me to more easily transition the ilogic routine into a full-fledged add-in at a later date; most of the work is already done.
+If I'm developing a complex ilogic routine, let's say a BOM export routine, I'll probably choose to place my classes and interfaces in separate files.  This follows .net best practices, and allows me to use Visual Studio (or another IDE) to manage my codebase.  This provides intellisense, better project navigation, git integration, as well as other goodies.  Collector lets me merge all of the desired files into a single ilogic routine that I can deploy to my CAD users.  This also allows me to more easily transition the ilogic routine into a full-fledged add-in at a later date; most of the work is already done.
 
 
-## Use
+## How To Use
 
-To use, include tags into the source code files that you want to collect.  Be sure to comment these tags out of the code.  (I've shown the example below with VB's ```'``` comment symbol.)
+Simply include tags into the source code files that you want to collect. You should comment
+these tags out for whatever source code you're using.  E.g. for VB, the tag would read
+`'</Collector>`, for AutoLISP it would read `;</Collector>`.
 
-* ``'</Collector>`` : include this tag in the first line of each file you want to collect.
-* ``'</CollectorHeader>`` : Include this tag in the first line of header and main files. This will ensure the file is placed at the top of the collected file.
-* ``'<CollectorPrepend>;</CollectorPrepend>`` : include this line after any line of code to comment out that line at collection time.  Use this for module wrappers that help VS, but need to be removed for iLogic to work properly.  Whatever the string between the <CollectorPrepend> tags, that string will be prepended to each line where the <CollectorPrepend> tags appear.
+* ``</Collector>`` : include this tag in the first line of each file you want to collect.
+* ``</CollectorHeader>`` : Include this tag in the first line of header and main files. This will ensure the file is placed at the top of the collected file. This is useful for header statements and includes.
+* ``<CollectorPrepend>;</CollectorPrepend>`` : include this line after any line of code to comment out that line at collection time.  E.g. use this for module wrappers that help VS, but need to be removed for iLogic to work properly.  Whatever the string between the <CollectorPrepend> tags, that string will be prepended to each line where the <CollectorPrepend> tags appear.  For example, the following line:
 
-When ready to compile, run this powershell script to combine the files into a single file. If running from the command line, you may need to issue the command like so if permissions issues prevent running the powershell script.
+	```Module Bob '<CollectorPrepend>'</CollectorPrepend>```
 
-``powershell -ExecutionPolicy ByPass -File .\Collector.ps1``
+	will become:
 
-The current directory name is used as the file name with an .iLogicVB extension.  This script will overwrite any file with that same name.  If the file is currently open, it will need to be closed or deleted to proceed.
+	```'Module Bob```
 
-## Example Code
+## Optional Parameters
 
-See the /Example/ folder for a simple set of code files that illustrates Collector in action. The Example.iLogicVB file has been generated by the Collector.ps1 script. The files "ExporterClass.vb", "Main.vb", and "SphereClass.vb" contain the Collector tags that tells the script what to do.
+When ready to compile, run this powershell script to combine the files into a single file. There are several optional command line parameters available.
 
-## CLI version
+`-Watch` : the directory to scan.  The path may be relative to the script location or absolute.
+			 E.g. -Watch "src", or -Watch "C:\dev\project\" will only scan files within those directories.
 
-An executable version is mid-progress, written in C#.  It will eventually have more options related to specifying input/output files, file names, recursive searches, directory depth, etc.
+`-Out` : Specifies the output file name that collector will generate. The path may be relative to the script location
+			 or absolute.  The default "build/build.vb" filename is used if none is specified.  This script will overwrite any file with that same name.  If the file is currently open, it will need to be closed or deleted to proceed.
+		     
+
+`-Filter` : an optional wildcard glob that will speed up the collection process by restricting the scanned files to
+			  matches.  E.g. -Filter "*.vb" will instruct collector to only scan files ending in .vb.
+
+ User defaults for these parameters can be set within the file.
+ 
+ It is important to note that if the optional parameters are not set to absolute paths, the path relative to the script will be used as the basis for file paths.
+
+## Example
+
+See the [/Example/](https://github.com/jordanrobot/Collector/tree/master/Example) folder for a simple set of code files that illustrates Collector in action. The Example.iLogicVB file has been generated by the Collector.ps1 script. The files "ExporterClass.vb", "Main.vb", and "SphereClass.vb" contain the Collector tags that tells the script what to do.
+
+## Troubleshooting
+
+If you have difficulty running this commands, you may need to issue the command like so if permissions issues prevent running the powershell script.  That said, I have chosen to leave this command as a powershell script instead of a C# executable so that users may read through the code and understand that it's not doing anything malicious.
+
+```powershell -ExecutionPolicy ByPass -File .\Collector.ps1```
