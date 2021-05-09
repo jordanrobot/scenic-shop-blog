@@ -10,3 +10,4 @@
 public
 resources/
 blog/*
+deploy.ps1

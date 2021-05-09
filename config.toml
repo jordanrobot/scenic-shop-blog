@@ -44,12 +44,12 @@ theme = "minimal"
 #    weight = 4
 
 [[menu.main]]
-    url = "https://www.scenic-shop.com/mdj"
+    url = "https://www.scenic-shop.com/mdj/"
     name = "portfolio"
     weight = 5
 
 [[menu.main]]
-    url = "https://www.scenic-shop.com/Calculators"
+    url = "https://www.scenic-shop.com/Calculators/"
     name = "calculators"
     weight = 4
 
