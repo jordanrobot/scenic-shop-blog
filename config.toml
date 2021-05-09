@@ -59,21 +59,21 @@ theme = "minimal"
 
 #[[menu.icon]]
 #    url = "mailto:me@example.com"
-#    name = "fab fa-envelope-o"
+#    name = "envelope-o"
 #    weight = 1
 
 [[menu.icon]]
     url = "https://github.com/jordanrobot/"
-    name = "fab fa-github"
+    name = "github"
     weight = 2
 
 #[[menu.icon]]
 #    url = "https://twitter.com/username/"
-#    name = "fab fa-twitter"
+#    name = "twitter"
 #    weight = 3
 
 [[menu.icon]]
     url = "https://www.linkedin.com/in/jordanscenic/"
-    name = "fab fa-linkedin"
+    name = "linkedin"
     weight = 4
 
