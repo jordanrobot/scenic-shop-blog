@@ -8,7 +8,7 @@ How much force does it take to bend 3”x16ga box tube to a 5’ radius in one p
 
 We’re talking about making a roll bender at work, and are waffling over whether to build a manual or motorized bender. I realized that we didn’t really have a handle on the forces involved in bending various steels to various radii; these numbers are instrumental when making this decision. (Not to mention during the design process.) Earlier this week I sat down and created an excel file to shed some light on the situation. Figured I might as well share it with my peoples.
 
-Snag the files here: [XLS](http://scenic-shop.com/files/excel/roller_forces.xls) or [PDF](http://scenic-shop.com/files/excel/roller_forces.pdf)
+Snag the files here: [XLS](http://www.scenic-shop.com/files/excel/roller_forces.xls) or [PDF](http://www.scenic-shop.com/files/excel/roller_forces.pdf)
 
 The majority of the worksheet calculates for:
 

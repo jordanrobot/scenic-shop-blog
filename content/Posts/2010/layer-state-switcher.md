@@ -7,7 +7,7 @@ summary: AutoLISP code to toggle between layerstates.
 
 This AutoCAD lisp command transparently saves the current layerstate.  Subsequent invocations switch between the saved state and the current state.  You can go back and forth until your eyes pop out.
 
-[Download and enjoy!](https://scenic-shop.com/files/cad/lisp/LayerStateSwitcher.lsp)
+[Download and enjoy!](https://www.scenic-shop.com/files/cad/lisp/LayerStateSwitcher.lsp)
 
 ```
 command: LSS

@@ -6,7 +6,7 @@ tags: ["AutoCAD"]
 
 (Or: How I Stopped Worring and Learned to Love the Command Alias)
 
-If you are an avid AutoCAD user, you know that setting up your command aliases is key. For those interested, I’ve put my customized portion of the acad.pgp file [here](http://scenic-shop.com/files/cad/pgp/acad-pgp.txt).
+If you are an avid AutoCAD user, you know that setting up your command aliases is key. For those interested, I’ve put my customized portion of the acad.pgp file [here](http://www.scenic-shop.com/files/cad/pgp/acad-pgp.txt).
 
 For those of you who are not familiar with AutoCAD’s command aliases, you’re in for a treat. Every time you enter “rec” instead of “rectangle,” or “l” instead of “line” you are using a command alias. Te best part is that you can customize your aliases to your heart’s content.
 

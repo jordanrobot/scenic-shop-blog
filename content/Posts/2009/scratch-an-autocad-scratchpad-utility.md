@@ -14,9 +14,9 @@ I've been using it for
 
 ### Download
 
-UPDATE: [Scratch v0.8](http://scenic-shop.com/wp/2010/02/scratch-v0-8-released/) is now available.
+UPDATE: [Scratch v0.8](http://www.scenic-shop.com/wp/2010/02/scratch-v0-8-released/) is now available.
 
-Download [Scratch v0.7](http://scenic-shop.com/files/cad/scratch0.7.zip) now!
+Download [Scratch v0.7](http://www.scenic-shop.com/files/cad/scratch0.7.zip) now!
 
 ### Use
 

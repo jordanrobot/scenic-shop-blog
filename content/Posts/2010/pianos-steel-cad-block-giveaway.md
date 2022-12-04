@@ -5,9 +5,9 @@ tags: ["AutoCAD", "Blocks"]
 summary: A collection of cad blocks (for free!)
 ---
 
-I just realized I never posted those grand piano cad blocks I promised months ago.  [You can snag them here](https://scenic-shop.com/files/cad/Blocks/Pianos.dwg) (version 2k).  Egg. face. mine.
+I just realized I never posted those grand piano cad blocks I promised months ago.  [You can snag them here](https://www.scenic-shop.com/files/cad/Blocks/Pianos.dwg) (version 2k).  Egg. face. mine.
 
-While I'm at it - [this is a link](https://scenic-shop.com/files/cad/Blocks/SteelProfiles.dwg) to some commonly used steel profile blocks.  Some of them are dynamic, so you'll need a newer (2006? I'm too lazy to look it up right now) version of autocad to utilize them.  Inside you'll find:
+While I'm at it - [this is a link](https://www.scenic-shop.com/files/cad/Blocks/SteelProfiles.dwg) to some commonly used steel profile blocks.  Some of them are dynamic, so you'll need a newer (2006? I'm too lazy to look it up right now) version of autocad to utilize them.  Inside you'll find:
 
 - Common (small) rectangular tubing (d-d-d-d-dynamic!)
 - Angle Iron (dynamic)

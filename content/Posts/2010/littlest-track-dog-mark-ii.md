@@ -5,7 +5,7 @@ tags: ["Solutions"]
 summary: ...
 ---
 
-This is the mark II design for the tiny track dog I [posted earlier](https://scenic-shop.com/wp/2009/12/littlest-dog-evar/).   This version features a sandwich style construction, which has several benefits over the mark I design.
+This is the mark II design for the tiny track dog I [posted earlier](https://www.scenic-shop.com/wp/2009/12/littlest-dog-evar/).   This version features a sandwich style construction, which has several benefits over the mark I design.
 
 ![Littlest Track Dog (mark II)](../images/Dog-MarkII.jpg)
 

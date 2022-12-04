@@ -9,7 +9,7 @@ Did you know you can precisely rotate the current view of modelspace?  This is 
 
 The longhand command is Dview > Dviewblock > Twist.  Enter the angle you want to twist the current view to, and you're set.  Why type that out every time?  This lisp will do that and more - just type "TW" to invoke.
 
-[Download it here.](https://scenic-shop.com/files/cad/lisp/twist.lsp)
+[Download it here.](https://www.scenic-shop.com/files/cad/lisp/twist.lsp)
 
 ```
 Command : TW

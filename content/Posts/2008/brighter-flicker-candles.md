@@ -37,7 +37,7 @@ The microprocessors that were selected to control the candles were [Arduinos](ht
 
 ### **The Candle** [Flicker Circuit](../images/flickercircuit.jpg "Flicker Circuit")
 
-You can download a pdf of the schematic here: [FlickerCircuit.pdf](http://scenic-shop.com/files/pdf/FlickerCircuit.pdf)
+You can download a pdf of the schematic here: [FlickerCircuit.pdf](http://www.scenic-shop.com/files/pdf/FlickerCircuit.pdf)
 
 This setup is powered by a single 9 volt battery. Notice the power distribution part of the schematic? The voltage is divided into two different values to feed different components of the effect. The Lily pad is powered by the 4.5 volt leg, while the LEDs are driven by the 9 volt leg. The max input voltage of the Lilypad is 5v; any more and you will fry its little brain (also note that if you cross the positive and negative power inputs of the Lilypad, it will short out.) Each candle unit utilizes four 360 degree white LEDs (you can find them at [Superbrightleds.com](http://www.Superbrightleds.com/).) Note that the LEDs can only withstand a maximum of 3.3 volts. The resistors (R2) in series with the LEDs drop the voltage to below the 3.3v maximum. Each LED is controlled via a different Lilypad output, allowing the LEDs to flicker independently of each other.
 
@@ -57,6 +57,6 @@ The largest hurdle most people will face when dealing with these bad boys is the
 
 So lets sum up. Arduinos are relatively cheap and very flexible. You can do just about anything with this hardware.  Example: (back to the flicker candles) if we had the time and money, we would have connected a small motion sensor to each board and had the flickers behave differently based upon how the candles were moving.   Imagine the candles flicker like candles while they were being carried by actors (movement) and slowly fading to a twinkling star effect after the candles were hung on the wall (not moving for x amount of time.) One last thing, and this is for the professors out there. Consider having your students do a project based around the Arduino.
 
-You can find some videos of the candles in action [here](http://scenic-shop.com/wp/2008/10/flicker-candle-movies/).
+You can find some videos of the candles in action [here](http://www.scenic-shop.com/wp/2008/10/flicker-candle-movies/).
 
 \[gallery link="file"\]

@@ -10,7 +10,7 @@ Have you ever wanted to lay out the frustum of a cone on a flat surface?” _“
 
 It can be a little intimidating if you’re not familiar with the concept of how to go about it. Our draper came to me wondering how she could accurately lay out a dress based on an actor’s measurements. (Apparently the traditional layout method wastes fabric.) So I came up with this simple excel sheet that does the calculations based on the following measurements: waist (small circumference), hem (large circumference) & inseam (height of the frustum.) It gives back the details needed to lay the cone frustum out on a flat surface. The diagram below gives the general gist of what’s what. There is a larger version of the image in the excel document.
 
-[Frustum.xls](http://scenic-shop.com/files/excel/Frustum.xls) From fabric to sheet goods, I hope this calculator finds some use.
+[Frustum.xls](http://www.scenic-shop.com/files/excel/Frustum.xls) From fabric to sheet goods, I hope this calculator finds some use.
 
 ![frustum-model](../images/frustum-model.jpg "frustum-model")
 

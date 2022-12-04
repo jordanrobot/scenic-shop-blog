@@ -1,6 +1,6 @@
 ---
 title: "Inventor Add-ins from the Ground Up"
-date: 2021-05-08T18:18:33-04:00
+date: "2021-05-08T18:18:33-04:00"
 draft: false
 tags: ["Inventor", "Code"]
 summary: "An introduction to Inventor Add-ins."
