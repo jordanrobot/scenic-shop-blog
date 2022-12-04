@@ -20,7 +20,7 @@ theme = "minimal"
     contentTextAlign = "left"
     postListCount = 6
     highlight = true
-    highlightStyle = "default"
+    highlightStyle = "github dark"
     highlightLanguages = ["lisp", "bash", "dos", "csharp", "vbnet", "yaml"]
 
 #[[menu.main]]
