@@ -17,7 +17,7 @@ Other notable changes:
 
 - The [Unit Conversion calculator](https://www.scenic-shop.com/Calculators/unit_converter.html) now include electrical units
 - Added to the [Constants](https://www.scenic-shop.com/Calculators/reference_constants.html) page.
-- Added formula pages for each calculator ([example](https://www.scenic-shop.com/Calculators/formulas/mdwiki.html#!bearing_plainPV.md))
+- Added formula pages for each calculator ([example](https://www.scenic-shop.com/calculators-formulae/components/bearing_plainpv/))
 - Added diagrams to those that need them
 - Updated the jquery mobile library to 1.4.0.
 - Added a [revision log](https://www.scenic-shop.com/Calculators/mdwiki.html#!revision_log.md)
