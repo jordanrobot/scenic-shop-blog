@@ -1,5 +1,5 @@
 ---
-title: "Sample DAO to Read & Write Excel Rows in C Sharp"
+title: "Excel Row DAO in C#"
 date: "2022-12-04T00:00:00-00:00"
 draft: false
 tags: ["Excel", "Code"]
