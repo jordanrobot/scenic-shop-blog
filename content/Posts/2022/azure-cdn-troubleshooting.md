@@ -60,16 +60,17 @@ After a few days I realized a better way to test this. I'm sure modern web-api d
 
 5. Use the rules engine to modify response headers to indicate if a rule is being applied, if it's matching, or if it's not matching.
 
-6. There is probably a built-in method to do this with Azure CDN logs, but the header method was a simple way to do it that only took a few minutes to implement.
+There is probably a built-in method to do this with Azure CDN logs, but the header method was a simple way to do it that only took a few minutes to implement.
 
 ## The Test Setup
 
 To setup this test, delete all existing rule engine rules for the CDN endpoint in question. (Remember to back them up or write them down first so you can recreate them.) 
 
-7. Label your test criteria with a label for identification. E.g. Test A, Test B, etc.
+6. Label your tests with a label for identification. E.g. Test A, Test B, etc. Change this label for every different test you run.
 
+7. Create a label that acts as a control for your tests.  Edit your global rule to append a http header to all responses with a custom header name and label identifying the test. E.g. `debug-control: B`.
 
-8. Create a global rule that will append a http header to all responses with a custom header name and label identifying the test. E.g. `debug-control: B`, as shown below:
+This is incredibly important for reasons I'll point out shortly.
 
 ---
 
@@ -85,7 +86,7 @@ To setup this test, delete all existing rule engine rules for the CDN endpoint i
 
 ---
 
-9. Write a test rule with the action to append a http header indicating the success of the test, as shown below:
+8. Write a test rule with the action to append a http header indicating the success of the test, as shown below:
 
 ---
 ### Test Rule
@@ -163,19 +164,22 @@ These are the rules that I'm currently using:
 {{</table>}}
 
 Notes:
- - URL Paths MUST end in a forward slash (`/`) or the to be matched to a directory without a file extension.  (E.g. `scenic-shop.com/`, but `scenic-shop.com` will not.)
- - Those `URL Path` conditions with multiple values are evaluated as `OR` conditions, not `AND` conditions, just as we suspected.
-- URL Rewrite will replace the `pattern` with the `destination`.
-- Request URL: `https://www.scenic-shop.com/testing/stuff.html`
-- Protocol: `https`
-- Host: `www.scenic-shop.com`
-- URL Path: `/testing/stuff.html`
-- URL File: `stuff.html`
-- URL File Extension: `html`
+ - URL Paths MUST end in a forward slash (`/`) to be matched to a directory without a file extension.
+    - E.g. `URL Path` `Ends With` `scenic-shop.com/` will match when you go to `https://www.scenic-shop.com` in a browser.
+    - E.g. `URL Path` `Ends With` `scenic-shop.com` will never match when you go to the same web address in a browser.
+ - A `URL Path` Condition with multiple values are evaluated as `OR` conditions, not `AND` conditions, just as I'd suspected.  Unfortunately this is missing from the Microsoft documentation.
+- The action `URL Rewrite` will replace the `pattern` string with the `destination` string. A pattern of `/` can be used to append the destination to the end of the URL path.
+- Some definitions (via examples):
+    - Request URL: `https://www.scenic-shop.com/testing/stuff.html`
+    - Protocol: `https`
+    - Host: `www.scenic-shop.com`
+    - URL Path: `/testing/stuff.html`
+    - URL File: `stuff.html`
+    - URL File Extension: `html`
 
-### Conclusion
+## Conclusion
 
-Since figuring out this workaround for testing the rules engine, it only took me a half an hour or so to get the rules working as I'd hoped.  I know there have to be better ways to do this, even to automate it if you want to, but the above manual method sufficed for my needs. A few possibilities come to mind (again, I'm not a web-api dev, I'm sure there are a lot more):
-- Use something like postman or insomnia to test the rules engine header codes.
+Since figuring out this workaround for testing the rules engine, it only took me a half an hour or so to get the rules working as I'd hoped.  I know there have to be better ways to do this, even to automate it if you want to, but the above manual method sufficed for my needs. A few possibilities come to mind (again... this guy is not a web-api dev; I'm sure there are a lot more):
+- Use software such as postman or insomnia to automate the tests and inspect the header code results.
 - Create a cli script to run a repeatable set of request URLs and inspect the http response headers. You could even probably use the cli to set the rules as well.
-- Inspect Azure CDN logs for rules engine results.
+- Inspect Azure CDN logs for rules engine results/events.
