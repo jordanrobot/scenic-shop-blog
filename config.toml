@@ -1,4 +1,4 @@
-baseURL = "https://www.scenic-shop.com/blog/"
+baseURL = "https://www.scenic-shop.com/"
 languageCode = "en-us"
 title = "Scenic-Shop"
 theme = "minimal"
@@ -49,7 +49,7 @@ theme = "minimal"
     weight = 5
 
 [[menu.main]]
-    url = "https://www.scenic-shop.com/Calculators/"
+    url = "https://calculators.scenic-shop.com/"
     name = "calculators"
     weight = 4
 
