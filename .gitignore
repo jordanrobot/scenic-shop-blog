@@ -11,3 +11,4 @@ public
 resources/
 blog/*
 deploy.ps1
+.hugo_build.lock

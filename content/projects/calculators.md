@@ -22,8 +22,8 @@ These are a collection of web-based javascript calculators that are mobile frien
 
 ## How to Use
 
-You can find the web-based calculators here: [Calculators](https://www.scenic-shop.com/Calculators/)
+You can find the web-based calculators here: [Calculators](https://calculators.scenic-shop.com/)
 
 The source is on github in the following repo: [Calculators Repo](https://github.com/jordanrobot/Calculators)
 
-Documentation for the calculators formulae and assumptions are here: [Calculators Formulae](https://www.scenic-shop.com/calculators-formulae/)
+Documentation for the calculators formulae and assumptions are here: [Calculators Formulae](https://formulae.scenic-shop.com/)
