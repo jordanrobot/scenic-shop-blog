@@ -43,10 +43,10 @@ theme = "minimal"
 #    name = "resume"
 #    weight = 4
 
-[[menu.main]]
-    url = "https://www.scenic-shop.com/mdj/"
-    name = "portfolio"
-    weight = 5
+#[[menu.main]]
+#    url = "https://www.scenic-shop.com/mdj/"
+#    name = "portfolio"
+#    weight = 5
 
 [[menu.main]]
     url = "https://calculators.scenic-shop.com/"
